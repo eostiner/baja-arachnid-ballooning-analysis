@@ -1,0 +1,5 @@
+break_id,break_name,anchor_latitude,analysis_role
+la_paz,Isthmus of La Paz,24.0,a_priori_test_latitude
+loreto,Loreto region,26.0,a_priori_test_latitude
+mid_peninsula,Mid-peninsular transition,28.0,a_priori_test_latitude
+north_30N,30N climatic transition,30.0,a_priori_test_latitude

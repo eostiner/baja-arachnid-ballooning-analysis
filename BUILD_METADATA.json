@@ -1,0 +1,38 @@
+{
+  "release": "1.0.5",
+  "built": "2026-07-16",
+  "canonical_scripts_only": true,
+  "primary_trait_definition": "C3 = D1 + D2 + D3 versus fixed N0; D4 excluded",
+  "authoritative_trait_schema": {
+    "tier_field": "exclusive_tier",
+    "primary_group_field": "primary_C3_group",
+    "normalized_output": "ANALYSIS_READY_INPUTS/03_trait_tables/07_reviewed_genus_trait_lookup_normalized.csv"
+  },
+  "key_fixes": [
+    "Step 10B retains the active sf geometry column and safely records cells with zero positive-area ecoregion overlap",
+    "Step 12B audits already installed raster products when the original export folder is unavailable",
+    "Step 12C validates environmental completeness and positive denominators only for primary-model candidate cells",
+    "Steps 12D and 12E validate candidate-set nesting and thresholds dynamically instead of comparing with obsolete fixed counts",
+    "Step 12K1 uses the current complete modeled-cell count in validation and captions",
+    "Step 10T accepts either the authoritative CSV or the authoritative Excel workbook",
+    "Step 11B full-cell reference export now passes explicit N0, D4, and classified masks",
+    "Step 10T combines exclusive_tier with primary_C3_group",
+    "blank exclusive_tier values for fixed N0 rows are resolved from primary_C3_group",
+    "all retained trait-partitioned steps prefer one canonical normalized trait table",
+    "mean expected rarefaction with corrected axis and subset-envelope wording",
+    "Step 10I v7.1 support file, dynamic annotations, 8-cell threshold, and a priori latitude labels",
+    "Spatial+ independent of exploratory GDM"
+  ],
+  "validation": {
+    "python_compile": "PASS",
+    "python_help_interfaces": "PASS",
+    "python_unit_tests": "PASS (9 tests)",
+    "full_R_enabled_publication_rerun": "PASS on macOS: pipeline completed through Step 12K1; Step 12C 13/13 and Step 12K 13/13",
+    "dynamic_candidate_counts": "PASS on fresh run: primary 189; ge5 90; ge10 43",
+    "R_execution_in_build_runtime": "NOT AVAILABLE; GitHub Actions parses all R sources",
+    "r_balanced_delimiter_check": "PASS (15 R scripts)",
+    "pipeline_dry_run": "PASS"
+  },
+  "python_unit_tests": 9,
+  "reference_map_visual_qc": "docs/MAP_QC.md"
+}

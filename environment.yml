@@ -1,0 +1,34 @@
+name: baja-ballooning
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - geopandas
+  - matplotlib
+  - numpy
+  - pandas
+  - openpyxl
+  - pyproj
+  - shapely
+  - r-base=4.4
+  - r-sf
+  - r-terra
+  - r-mgcv
+  - r-ggplot2
+  - r-patchwork
+  - r-jsonlite
+  - r-dplyr
+  - r-readr
+  - r-maps
+  - r-scales
+  - r-viridis
+  - r-vegan
+  - r-inext
+  - r-glmmtmb
+  - r-readxl
+  - r-tidyr
+  - r-purrr
+  - r-tibble
+  - r-svglite
+  - r-gdm
+  - pip
