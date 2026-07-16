@@ -38,29 +38,6 @@ conda activate baja-ballooning
 
 Or install Python packages with `pip install -r requirements.txt` and the R packages listed in `environment/R_PACKAGES.md`.
 
-## Preflight
-
-```bash
-python tools/preflight_check.py ~/Desktop/Baja_Ballooning_Pipeline
-```
-
-The preflight understands the authoritative paired schema. It should report both the tier field and the primary-group field, followed by nonzero C3 and N0 counts.
-
-## Full publication rerun
-
-```bash
-python run_pipeline.py \
-  --project-root ~/Desktop/Baja_Ballooning_Pipeline
-```
-
-A partial rerun is supported. Step `10T` must precede any trait-partitioned downstream step when the canonical normalized trait table has not yet been generated. See `RERUN_CHECKLIST.md` for the final publication workflow:
-
-```bash
-python run_pipeline.py --project-root ~/Desktop/Baja_Ballooning_Pipeline \
-  --from-step 10T --to-step 10I
-```
-
-The optional exploratory GDM can be added with `--include-gdm`; it is not required by Spatial+.
 
 ## Main generated figures
 
