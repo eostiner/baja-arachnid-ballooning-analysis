@@ -4,23 +4,6 @@
 
 Publication-ready code release for the retained Baja California arachnid ballooning workflow. The repository starts with the final quality-controlled occurrence tables and reviewed genus trait table, then rebuilds the 25-km incidence grid, equal-cell richness and turnover analyses, biogeographic tests, environmental screening, Spatial+ analysis, and final maps.
 
-## Primary biological definition
-
-- **C3 Ballooning:** D1 + D2 + D3.
-- **N0 Non-ballooning:** fixed non-ballooning reference.
-- **D4:** excluded from every primary C3-versus-N0 denominator; it is never silently recoded as N0.
-
-The publication scripts deliberately reject a trait table that contains only a legacy binary ballooning column. The authoritative reviewed table may use the paired fields `exclusive_tier` and `primary_C3_group`: Step 10T combines them into a canonical downstream table so that blank tiers for fixed non-ballooning genera are interpreted from `primary_C3_group`, not treated as missing data.
-
-## Important corrections incorporated here
-
-1. Step 10T normalizes the authoritative two-field trait schema (`exclusive_tier` + `primary_C3_group`) into explicit D1–D4/N0 and C3/N0/D4-excluded columns. Steps 11, 11B, 11G, 12C, and supplementary 12J then use that canonical table.
-2. Equal-cell rarefaction plots **mean expected observed genus richness**, with percentile envelopes among subsets of the observed occupied cells.
-3. Step 10I v7 includes its required `_base_v2.py`, uses eight-cell ecoregion eligibility consistently, labels dashed lines as a priori test latitudes, and writes publication-named aliases of the centerpiece figure.
-4. Spatial+ no longer depends on exploratory GDM. Step 12F prepares the environmental scores directly from the Step 12C table.
-5. The primary environmental model table retains all environmentally complete cells with a positive C3+N0 denominator; >=5 and >=10 genus subsets are written as sensitivities.
-6. Step 12A searches only the active project unless an optional historical root is explicitly supplied.
-7. Only one canonical version of each retained step is included.
 
 ## Data scope
 
@@ -96,24 +79,3 @@ Figure_3_Biogeographic_Dispersal_Balance.{png,pdf,svg,jpg}
 
 Locked SVG, PNG, and JPG reference renderings are stored in `docs/reference_figures/` for visual regression checking. Review every fresh export with `docs/MAP_QA_CHECKLIST.md` and `docs/MAP_QC.md`. Step 10I derives displayed iteration and equal-cell counts from the current output tables.
 
-## Interpretation limits
-
-The analyses concern genus-level community composition and inferred dispersal categories. They do not demonstrate individual ballooning events, reproductive isolation, or ecological speciation. Monte Carlo percentile bands describe variation among equal-cell subsets of the observed occupied-cell universe; they are not confidence intervals for total regional richness.
-
-## Reproducibility
-
-- Seeds and paper-mode iteration counts are fixed in `run_pipeline.py`.
-- Scripts join matrices and tables by named genus and cell identifiers rather than row order.
-- `SCRIPT_MANIFEST.tsv` contains SHA-256 checksums.
-- `tools/verify_manifest.py` verifies release integrity.
-- Input and output manifests are written by the individual analysis steps.
-
-## Release validation
-
-See `VALIDATION_SUMMARY.md` for the final fresh-run audit.
-
-The complete R-enabled publication workflow was rerun successfully on macOS through Step 12K1. The fresh Step 12C table contained 205 documented occupied cells and 189 primary-model candidates; Step 12C and Step 12K each passed all 13 validation checks. The release build also compiles every Python source, exercises the Python test suite, checks the manifest, and uses GitHub Actions to parse every R source. See `RELEASE_NOTES.md`.
-
-## License and citation
-
-Code is released under the MIT License. See `CHANGELOG.md` for the final publication fixes. Add `repository-code` to `CITATION.cff` after the GitHub repository is created, and add the manuscript/data DOI when available.
