@@ -1,0 +1,14 @@
+PHASE 13H1 INPUT AUDIT SUMMARY
+project_root=PROJECT_ROOT
+n_13D_cells=189
+n_candidate_files=1116
+n_high_value_cell_ecoregion_candidates=1
+n_ecoregion_table_candidates=38
+
+NEXT DECISION:
+Use independently defined retained ecoregion geometry/assignments to build:
+1) local ecoregion-junction complexity around each 25-km cell,
+2) an independently fixed Mulege/central-Gulf focal zone,
+3) a Gulf-side nonlinear north-south test.
+
+NO OUTCOME-BASED ZONE SELECTION WAS PERFORMED IN THIS AUDIT.

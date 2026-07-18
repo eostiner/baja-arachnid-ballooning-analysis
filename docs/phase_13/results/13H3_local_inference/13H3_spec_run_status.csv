@@ -1,0 +1,14 @@
+spec_name,run_status
+PRIMARY_Mulege_75km,PASS
+PRIMARY_junction_score,PASS
+PRIMARY_Costa_Golfo_x_Giganta_overlap,PASS
+PRIMARY_Mulege75_plus_junction,PASS
+SENS_radius_50km,PASS
+SENS_radius_100km,PASS
+SENS_radius_125km,PASS
+SENS_Mulege75_min5,PASS
+SENS_junction_min5,PASS
+SENS_Mulege75_min10,PASS
+SENS_junction_min10,PASS
+SENS_Mulege75_environment_PCs,PASS
+SENS_junction_environment_PCs,PASS

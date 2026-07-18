@@ -1,0 +1,2 @@
+focal_name,latitude,longitude,primary_radius_km,sensitivity_radii_km,analysis_status,notes
+Heroica_Mulege,26.89,-111.98,75.0,50;100;125,EXPLORATORY_POST_HOC_LOCATION_FIXED_BEFORE_TESTING,The map feature was noticed visually; location and radii are frozen before 13H3 outcome testing.

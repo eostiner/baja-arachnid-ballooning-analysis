@@ -1,0 +1,21 @@
+metric,analysis_status,trait_class,term,beta_descriptive,model_R2,environment_partial_R2_descriptive,historical_B01_B03_partial_R2_descriptive,n_cells,n_pairs,note
+simpson_replacement,PRIMARY,C3,Intercept,0.6331135430390966,0.03523921515346362,0.0003883696777997901,0.03355806533701661,120,7140,Descriptive coefficients; primary inference is on paired C3-N0 delta.
+simpson_replacement,PRIMARY,C3,z_log_geographic_distance,0.016372115753641017,0.03523921515346362,0.0003883696777997901,0.03355806533701661,120,7140,Descriptive coefficients; primary inference is on paired C3-N0 delta.
+simpson_replacement,PRIMARY,C3,z_environment,-0.00936159806279713,0.03523921515346362,0.0003883696777997901,0.03355806533701661,120,7140,Descriptive coefficients; primary inference is on paired C3-N0 delta.
+simpson_replacement,PRIMARY,C3,B01_LaPaz,-0.1987646079373024,0.03523921515346362,0.0003883696777997901,0.03355806533701661,120,7140,Descriptive coefficients; primary inference is on paired C3-N0 delta.
+simpson_replacement,PRIMARY,C3,B03_Vizcaino,0.04396547286021129,0.03523921515346362,0.0003883696777997901,0.03355806533701661,120,7140,Descriptive coefficients; primary inference is on paired C3-N0 delta.
+simpson_replacement,PRIMARY,N0,Intercept,0.712204805307747,0.06091269556785439,0.0012582439866039052,0.041887149405141856,120,7140,Descriptive coefficients; primary inference is on paired C3-N0 delta.
+simpson_replacement,PRIMARY,N0,z_log_geographic_distance,0.06283137692307975,0.06091269556785439,0.0012582439866039052,0.041887149405141856,120,7140,Descriptive coefficients; primary inference is on paired C3-N0 delta.
+simpson_replacement,PRIMARY,N0,z_environment,0.014287074129057397,0.06091269556785439,0.0012582439866039052,0.041887149405141856,120,7140,Descriptive coefficients; primary inference is on paired C3-N0 delta.
+simpson_replacement,PRIMARY,N0,B01_LaPaz,-0.1899461070606897,0.06091269556785439,0.0012582439866039052,0.041887149405141856,120,7140,Descriptive coefficients; primary inference is on paired C3-N0 delta.
+simpson_replacement,PRIMARY,N0,B03_Vizcaino,0.03834533216865049,0.06091269556785439,0.0012582439866039052,0.041887149405141856,120,7140,Descriptive coefficients; primary inference is on paired C3-N0 delta.
+jaccard_total,SECONDARY,C3,Intercept,0.8920787088604533,0.017204196154095075,0.006501258057081782,0.0013933988635238743,120,7140,Descriptive coefficients; primary inference is on paired C3-N0 delta.
+jaccard_total,SECONDARY,C3,z_log_geographic_distance,0.014356709475476306,0.017204196154095075,0.006501258057081782,0.0013933988635238743,120,7140,Descriptive coefficients; primary inference is on paired C3-N0 delta.
+jaccard_total,SECONDARY,C3,z_environment,0.015579432842933786,0.017204196154095075,0.006501258057081782,0.0013933988635238743,120,7140,Descriptive coefficients; primary inference is on paired C3-N0 delta.
+jaccard_total,SECONDARY,C3,B01_LaPaz,-0.014700823110829098,0.017204196154095075,0.006501258057081782,0.0013933988635238743,120,7140,Descriptive coefficients; primary inference is on paired C3-N0 delta.
+jaccard_total,SECONDARY,C3,B03_Vizcaino,-0.00985229497298859,0.017204196154095075,0.006501258057081782,0.0013933988635238743,120,7140,Descriptive coefficients; primary inference is on paired C3-N0 delta.
+jaccard_total,SECONDARY,N0,Intercept,0.9104800947635145,0.06742953180132161,0.006113848488269359,0.00882106216127713,120,7140,Descriptive coefficients; primary inference is on paired C3-N0 delta.
+jaccard_total,SECONDARY,N0,z_log_geographic_distance,0.026848246909953216,0.06742953180132161,0.006113848488269359,0.00882106216127713,120,7140,Descriptive coefficients; primary inference is on paired C3-N0 delta.
+jaccard_total,SECONDARY,N0,z_environment,0.011101413193405109,0.06742953180132161,0.006113848488269359,0.00882106216127713,120,7140,Descriptive coefficients; primary inference is on paired C3-N0 delta.
+jaccard_total,SECONDARY,N0,B01_LaPaz,-0.029728294703266395,0.06742953180132161,0.006113848488269359,0.00882106216127713,120,7140,Descriptive coefficients; primary inference is on paired C3-N0 delta.
+jaccard_total,SECONDARY,N0,B03_Vizcaino,0.007531200945511289,0.06742953180132161,0.006113848488269359,0.00882106216127713,120,7140,Descriptive coefficients; primary inference is on paired C3-N0 delta.

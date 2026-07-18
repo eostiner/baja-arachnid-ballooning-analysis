@@ -1,0 +1,81 @@
+PHASE 13A — INPUT / PROVENANCE AUDIT
+============================================
+Project root: PROJECT_ROOT
+Status: REVIEW_REQUIRED
+
+REFERENCE EXPECTATIONS (review only; not blindly enforced):
+  note: Reference expectations from retained C3 workflow; 13A reports but does not force-match if upstream files document a newer retained state.
+  total_genera_reference: 267
+  occupied_25km_cells_reference: 205
+  c3_genera_step11h_support: 87
+  n0_genera_step11h_support: 140
+  c3_occupied_cells_step11h: 148
+  n0_occupied_cells_step11h: 176
+
+CANDIDATE INPUT CATEGORIES:
+
+[incidence_or_genus_cell] AMBIGUOUS_REVIEW_REQUIRED
+  score=2 size=327  PROJECT_ROOT/02_data_clean/08_grid25km_incidence/10_grid25km_validation.csv
+  score=2 size=327  PROJECT_ROOT/04_analysis/scale_sensitivity/10km/project/02_data_clean/08_grid25km_incidence/10_grid25km_validation.csv
+  score=2 size=327  PROJECT_ROOT/04_analysis/scale_sensitivity/15km/project/02_data_clean/08_grid25km_incidence/10_grid25km_validation.csv
+  score=2 size=327  PROJECT_ROOT/08_archive/10_grid25km_incidence_20260713T013836Z/10_grid25km_validation.csv
+  score=2 size=327  PROJECT_ROOT/08_archive/10_grid25km_incidence_20260713T020205Z/10_grid25km_validation.csv
+  score=2 size=327  PROJECT_ROOT/08_archive/10_grid25km_incidence_20260716T194401Z/10_grid25km_validation.csv
+  score=2 size=327  PROJECT_ROOT/08_archive/10_grid25km_incidence_20260717T031551Z/10_grid25km_validation.csv
+  score=2 size=327  PROJECT_ROOT/08_archive/10_grid25km_incidence_20260717T031655Z/10_grid25km_validation.csv
+  score=2 size=327  PROJECT_ROOT/08_archive/10_grid25km_incidence_20260717T032126Z/10_grid25km_validation.csv
+  score=2 size=1796  PROJECT_ROOT/08_archive/10_grid25km_incidence_20260713T013836Z/10_grid25km_matrix_manifest.csv
+
+[trait_c3_n0] AMBIGUOUS_REVIEW_REQUIRED
+  score=2 size=0  PROJECT_ROOT/04_analysis 2/12J_trait_stratified_gdm/12J_matched_pairs_primary.csv
+  score=2 size=0  PROJECT_ROOT/04_analysis_USE _THIS/12J_trait_stratified_gdm/12J_matched_pairs_primary.csv
+  score=2 size=0  PROJECT_ROOT/08_archive/12J_trait_stratified_gdm_20260714T112007/12J_matched_pairs_primary.csv
+  score=2 size=0  PROJECT_ROOT/08_archive/12J_trait_stratified_gdm_20260714T113031/12J_matched_pairs_primary.csv
+  score=2 size=46  PROJECT_ROOT/04_analysis_USE _THIS/11_latitude_band_diversity_turnover/11_trait_confidence_summary.csv
+  score=2 size=46  PROJECT_ROOT/08_archive/11_latitude_band_diversity_turnover_20260716T202135/11_trait_confidence_summary.csv
+  score=2 size=48  PROJECT_ROOT/02_data_clean/02_trait_integrated/02_reviewed_genus_trait_lookup_conflicts.csv
+  score=2 size=64  PROJECT_ROOT/04_analysis_USE _THIS/11H0_strict_trait_audit/11H0_suggestion_counts.csv
+  score=2 size=76  PROJECT_ROOT/04_analysis 2/11_latitude_band_diversity_turnover/11_trait_confidence_summary.csv
+  score=2 size=76  PROJECT_ROOT/08_archive/11_latitude_band_diversity_turnover_20260716T124408/11_trait_confidence_summary.csv
+
+[environment_cell_table] AMBIGUOUS_REVIEW_REQUIRED
+  score=4 size=5718  PROJECT_ROOT/04_analysis 2/12C_cell_environment_model_table/12C_predictor_missingness.csv
+  score=4 size=5718  PROJECT_ROOT/04_analysis_USE _THIS/12C_cell_environment_model_table/12C_predictor_missingness.csv
+  score=4 size=5718  PROJECT_ROOT/08_archive/12C_cell_environment_model_table_20260716T140114_23340/12C_predictor_missingness.csv
+  score=4 size=5718  PROJECT_ROOT/08_archive/12C_cell_environment_model_table_20260716T142148_38777/12C_predictor_missingness.csv
+  score=4 size=5718  PROJECT_ROOT/08_archive/12C_cell_environment_model_table_20260716T202916_43926/12C_predictor_missingness.csv
+  score=4 size=5729  PROJECT_ROOT/04_analysis/scale_sensitivity/10km/project/04_analysis/12C_cell_environment_model_table/12C_predictor_missingness.csv
+  score=4 size=5729  PROJECT_ROOT/04_analysis/scale_sensitivity/10km/project/08_archive/12C_cell_environment_model_table_20260717T182632_82869/12C_predictor_missingness.csv
+  score=4 size=5739  PROJECT_ROOT/04_analysis/scale_sensitivity/15km/project/04_analysis/12C_cell_environment_model_table/12C_predictor_missingness.csv
+  score=4 size=6768  PROJECT_ROOT/04_analysis/scale_sensitivity/10km/project/04_analysis/12C_cell_environment_model_table/12C_predictor_summary.csv
+  score=4 size=6768  PROJECT_ROOT/04_analysis/scale_sensitivity/10km/project/08_archive/12C_cell_environment_model_table_20260717T182632_82869/12C_predictor_summary.csv
+
+[boundary_or_ecoregion] AMBIGUOUS_REVIEW_REQUIRED
+  score=4 size=828  PROJECT_ROOT/04_analysis_USE _THIS/C3_pipeline_rebuild/09_C3_biogeographic_concordance/10E_published_break_concordance/10E_boundary_rank_frequencies.csv
+  score=4 size=859  PROJECT_ROOT/04_analysis_USE _THIS/C3_pipeline_rebuild/09_C3_biogeographic_concordance/10D_ecoregion_boundary_turnover/10D_input_manifest.csv
+  score=4 size=1446  PROJECT_ROOT/04_analysis_USE _THIS/C3_pipeline_rebuild/09_C3_biogeographic_concordance/10D_ecoregion_boundary_turnover/10D_analysis_summary.json
+  score=4 size=1626  PROJECT_ROOT/04_analysis_USE _THIS/C3_pipeline_rebuild/09_C3_biogeographic_concordance/10D_ecoregion_boundary_turnover/README_RESULTS_FIRST.txt
+  score=4 size=3674  PROJECT_ROOT/04_analysis_USE _THIS/C3_pipeline_rebuild/09_C3_biogeographic_concordance/10D_ecoregion_boundary_turnover/10D_cross_boundary_ecoregion_pair_summary.csv
+  score=4 size=3982  PROJECT_ROOT/04_analysis_USE _THIS/C3_pipeline_rebuild/09_C3_biogeographic_concordance/10D_ecoregion_boundary_turnover/10D_permutation_null_summaries.csv
+  score=4 size=5219  PROJECT_ROOT/04_analysis_USE _THIS/C3_pipeline_rebuild/09_C3_biogeographic_concordance/10D_ecoregion_boundary_turnover/10D_turnover_group_summaries.csv
+  score=4 size=6913  PROJECT_ROOT/04_analysis_USE _THIS/C3_pipeline_rebuild/09_C3_biogeographic_concordance/10D_ecoregion_boundary_turnover/10D_permutation_tests.csv
+  score=4 size=8186  PROJECT_ROOT/04_analysis_USE _THIS/C3_pipeline_rebuild/09_C3_biogeographic_concordance/10D_ecoregion_boundary_turnover/10D_frozen_count_validation.csv
+  score=4 size=19316  PROJECT_ROOT/04_analysis_USE _THIS/C3_pipeline_rebuild/09_C3_biogeographic_concordance/10D_ecoregion_boundary_turnover/10D_top_50_total_simpson_edges.csv
+
+[step11_outputs] AMBIGUOUS_REVIEW_REQUIRED
+  score=2 size=329  PROJECT_ROOT/04_analysis_USE _THIS/11H_separate_trait_grouping/11H_latitude_N0_simpson_median_matrix.csv
+  score=2 size=415  PROJECT_ROOT/04_analysis_USE _THIS/11H_separate_trait_grouping/11H_latitude_C3_jaccard_median_matrix.csv
+  score=2 size=422  PROJECT_ROOT/04_analysis 2/11_latitude_band_diversity_turnover/11_biodiversity_final_simpson_turnover_matrix.csv
+  score=2 size=422  PROJECT_ROOT/04_analysis_USE _THIS/11_latitude_band_diversity_turnover/11_biodiversity_final_simpson_turnover_matrix.csv
+  score=2 size=422  PROJECT_ROOT/08_archive/11_latitude_band_diversity_turnover_20260716T124408/11_biodiversity_final_simpson_turnover_matrix.csv
+  score=2 size=422  PROJECT_ROOT/08_archive/11_latitude_band_diversity_turnover_20260716T202135/11_biodiversity_final_simpson_turnover_matrix.csv
+  score=2 size=426  PROJECT_ROOT/04_analysis 2/11_latitude_band_diversity_turnover/11_taxonomy_strict_simpson_turnover_matrix.csv
+  score=2 size=426  PROJECT_ROOT/04_analysis_USE _THIS/11_latitude_band_diversity_turnover/11_taxonomy_strict_simpson_turnover_matrix.csv
+  score=2 size=426  PROJECT_ROOT/08_archive/11_latitude_band_diversity_turnover_20260716T124408/11_taxonomy_strict_simpson_turnover_matrix.csv
+  score=2 size=426  PROJECT_ROOT/08_archive/11_latitude_band_diversity_turnover_20260716T202135/11_taxonomy_strict_simpson_turnover_matrix.csv
+
+NEXT ACTION:
+Manually confirm authoritative files for incidence/traits, cell coordinates,
+Phase 12 environment, and a priori boundary configuration before Phase 13B.
+Do not run inferential Phase 13 models while any required category is missing
+or while authoritative inputs are ambiguous.

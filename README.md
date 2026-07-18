@@ -1,6 +1,6 @@
 # Baja California arachnid dispersal analysis
 
-**Release 1.0.5 — final post-rerun publication package**
+**Release 1.0.6 — final post-rerun publication package**
 
 Publication-ready code release for the retained Baja California arachnid ballooning workflow. The repository starts with the final quality-controlled occurrence tables and reviewed genus trait table, then rebuilds the 25-km incidence grid, equal-cell richness and turnover analyses, biogeographic tests, environmental screening, Spatial+ analysis, and final maps.
 
@@ -93,3 +93,20 @@ python run_pipeline.py \
 
 Compact successful-run summaries and SVGs are stored under
 `docs/exploratory/step_12N/`.
+
+<!-- PHASE13_START -->
+## Phase 13 supplementary mechanism test
+
+Phase 13 tests whether lower Simpson replacement of C3 ballooning-capable assemblages is explained by stronger contemporary-environment tracking or weaker historical-boundary structure. The primary paired cell-label permutation test did **not** support that mechanism, and the conclusion was robust to Step 13G sensitivities. A post-hoc Mulegé/ecoregion-junction follow-up also did not support a discrete local bump.
+
+- Confirmatory mechanism test: **13F**
+- Pre-specified robustness: **13G**
+- Exploratory local follow-up: **13H1–13H3**
+
+See [`docs/phase_13/README.md`](docs/phase_13/README.md).
+
+```bash
+python scripts/supplementary/phase_13/run_phase13.py \
+  --project-root /path/to/Baja_Ballooning_Pipeline
+```
+<!-- PHASE13_END -->

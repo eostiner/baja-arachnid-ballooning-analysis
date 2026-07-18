@@ -1,0 +1,7 @@
+check,observed,expected,status
+unique_eligible_cells,189,189,PASS
+environment_pairs,17766,17766,PASS
+community_pairs,17766,17766,PASS
+historical_pairs,17766,17766,PASS
+joined_master_pairs,17766,17766,PASS
+paired_valid_pairs,16400,16400,PASS

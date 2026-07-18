@@ -1,0 +1,1221 @@
+{
+  "phase": "13A",
+  "project_root": "PROJECT_ROOT",
+  "expected_reference": {
+    "note": "Reference expectations from retained C3 workflow; 13A reports but does not force-match if upstream files document a newer retained state.",
+    "total_genera_reference": 267,
+    "occupied_25km_cells_reference": 205,
+    "c3_genera_step11h_support": 87,
+    "n0_genera_step11h_support": 140,
+    "c3_occupied_cells_step11h": 148,
+    "n0_occupied_cells_step11h": 176
+  },
+  "categories": {
+    "incidence_or_genus_cell": {
+      "status": "AMBIGUOUS_REVIEW_REQUIRED",
+      "candidates": [
+        {
+          "path": "PROJECT_ROOT/02_data_clean/08_grid25km_incidence/10_grid25km_validation.csv",
+          "score": 2,
+          "size_bytes": 327,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/04_analysis/scale_sensitivity/10km/project/02_data_clean/08_grid25km_incidence/10_grid25km_validation.csv",
+          "score": 2,
+          "size_bytes": 327,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/04_analysis/scale_sensitivity/15km/project/02_data_clean/08_grid25km_incidence/10_grid25km_validation.csv",
+          "score": 2,
+          "size_bytes": 327,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/08_archive/10_grid25km_incidence_20260713T013836Z/10_grid25km_validation.csv",
+          "score": 2,
+          "size_bytes": 327,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/08_archive/10_grid25km_incidence_20260713T020205Z/10_grid25km_validation.csv",
+          "score": 2,
+          "size_bytes": 327,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/08_archive/10_grid25km_incidence_20260716T194401Z/10_grid25km_validation.csv",
+          "score": 2,
+          "size_bytes": 327,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/08_archive/10_grid25km_incidence_20260717T031551Z/10_grid25km_validation.csv",
+          "score": 2,
+          "size_bytes": 327,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/08_archive/10_grid25km_incidence_20260717T031655Z/10_grid25km_validation.csv",
+          "score": 2,
+          "size_bytes": 327,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/08_archive/10_grid25km_incidence_20260717T032126Z/10_grid25km_validation.csv",
+          "score": 2,
+          "size_bytes": 327,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/08_archive/10_grid25km_incidence_20260713T013836Z/10_grid25km_matrix_manifest.csv",
+          "score": 2,
+          "size_bytes": 1796,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/08_archive/10_grid25km_incidence_20260713T020205Z/10_grid25km_matrix_manifest.csv",
+          "score": 2,
+          "size_bytes": 1796,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/04_analysis/scale_sensitivity/10km/project/02_data_clean/08_grid25km_incidence/10_grid25km_matrix_manifest.csv",
+          "score": 2,
+          "size_bytes": 2466,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/02_data_clean/08_grid25km_incidence/10_grid25km_matrix_manifest.csv",
+          "score": 2,
+          "size_bytes": 2468,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/08_archive/10_grid25km_incidence_20260716T194401Z/10_grid25km_matrix_manifest.csv",
+          "score": 2,
+          "size_bytes": 2468,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/08_archive/10_grid25km_incidence_20260717T031551Z/10_grid25km_matrix_manifest.csv",
+          "score": 2,
+          "size_bytes": 2468,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/08_archive/10_grid25km_incidence_20260717T031655Z/10_grid25km_matrix_manifest.csv",
+          "score": 2,
+          "size_bytes": 2468,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/08_archive/10_grid25km_incidence_20260717T032126Z/10_grid25km_matrix_manifest.csv",
+          "score": 2,
+          "size_bytes": 2468,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/04_analysis/scale_sensitivity/15km/project/02_data_clean/08_grid25km_incidence/10_grid25km_matrix_manifest.csv",
+          "score": 2,
+          "size_bytes": 2469,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/08_archive/10_grid25km_incidence_20260713T013836Z/10_grid25km_provenance.json",
+          "score": 2,
+          "size_bytes": 8473,
+          "suffix": ".json"
+        },
+        {
+          "path": "PROJECT_ROOT/08_archive/10_grid25km_incidence_20260713T020205Z/10_grid25km_provenance.json",
+          "score": 2,
+          "size_bytes": 8473,
+          "suffix": ".json"
+        },
+        {
+          "path": "PROJECT_ROOT/08_archive/10_grid25km_incidence_20260716T194401Z/10_grid25km_provenance.json",
+          "score": 2,
+          "size_bytes": 10845,
+          "suffix": ".json"
+        },
+        {
+          "path": "PROJECT_ROOT/08_archive/10_grid25km_incidence_20260717T031551Z/10_grid25km_provenance.json",
+          "score": 2,
+          "size_bytes": 10871,
+          "suffix": ".json"
+        },
+        {
+          "path": "PROJECT_ROOT/02_data_clean/08_grid25km_incidence/10_grid25km_provenance.json",
+          "score": 2,
+          "size_bytes": 11520,
+          "suffix": ".json"
+        },
+        {
+          "path": "PROJECT_ROOT/08_archive/10_grid25km_incidence_20260717T031655Z/10_grid25km_provenance.json",
+          "score": 2,
+          "size_bytes": 11520,
+          "suffix": ".json"
+        },
+        {
+          "path": "PROJECT_ROOT/08_archive/10_grid25km_incidence_20260717T032126Z/10_grid25km_provenance.json",
+          "score": 2,
+          "size_bytes": 11520,
+          "suffix": ".json"
+        },
+        {
+          "path": "PROJECT_ROOT/02_data_clean/08_grid25km_incidence/10_environmental_strict_genus_summary.csv",
+          "score": 2,
+          "size_bytes": 12861,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/08_archive/10_grid25km_incidence_20260716T194401Z/10_environmental_strict_genus_summary.csv",
+          "score": 2,
+          "size_bytes": 12861,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/08_archive/10_grid25km_incidence_20260717T031551Z/10_environmental_strict_genus_summary.csv",
+          "score": 2,
+          "size_bytes": 12861,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/08_archive/10_grid25km_incidence_20260717T031655Z/10_environmental_strict_genus_summary.csv",
+          "score": 2,
+          "size_bytes": 12861,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/08_archive/10_grid25km_incidence_20260717T032126Z/10_environmental_strict_genus_summary.csv",
+          "score": 2,
+          "size_bytes": 12861,
+          "suffix": ".csv"
+        }
+      ],
+      "top_csv_tsv_previews": [
+        {
+          "path": "PROJECT_ROOT/02_data_clean/08_grid25km_incidence/10_grid25km_validation.csv",
+          "readable": true,
+          "columns": [
+            "check",
+            "status",
+            "detail"
+          ],
+          "n_preview_rows": 5
+        },
+        {
+          "path": "PROJECT_ROOT/04_analysis/scale_sensitivity/10km/project/02_data_clean/08_grid25km_incidence/10_grid25km_validation.csv",
+          "readable": true,
+          "columns": [
+            "check",
+            "status",
+            "detail"
+          ],
+          "n_preview_rows": 5
+        },
+        {
+          "path": "PROJECT_ROOT/04_analysis/scale_sensitivity/15km/project/02_data_clean/08_grid25km_incidence/10_grid25km_validation.csv",
+          "readable": true,
+          "columns": [
+            "check",
+            "status",
+            "detail"
+          ],
+          "n_preview_rows": 5
+        },
+        {
+          "path": "PROJECT_ROOT/08_archive/10_grid25km_incidence_20260713T013836Z/10_grid25km_validation.csv",
+          "readable": true,
+          "columns": [
+            "check",
+            "status",
+            "detail"
+          ],
+          "n_preview_rows": 5
+        },
+        {
+          "path": "PROJECT_ROOT/08_archive/10_grid25km_incidence_20260713T020205Z/10_grid25km_validation.csv",
+          "readable": true,
+          "columns": [
+            "check",
+            "status",
+            "detail"
+          ],
+          "n_preview_rows": 5
+        }
+      ]
+    },
+    "trait_c3_n0": {
+      "status": "AMBIGUOUS_REVIEW_REQUIRED",
+      "candidates": [
+        {
+          "path": "PROJECT_ROOT/04_analysis 2/12J_trait_stratified_gdm/12J_matched_pairs_primary.csv",
+          "score": 2,
+          "size_bytes": 0,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/04_analysis_USE _THIS/12J_trait_stratified_gdm/12J_matched_pairs_primary.csv",
+          "score": 2,
+          "size_bytes": 0,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/08_archive/12J_trait_stratified_gdm_20260714T112007/12J_matched_pairs_primary.csv",
+          "score": 2,
+          "size_bytes": 0,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/08_archive/12J_trait_stratified_gdm_20260714T113031/12J_matched_pairs_primary.csv",
+          "score": 2,
+          "size_bytes": 0,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/04_analysis_USE _THIS/11_latitude_band_diversity_turnover/11_trait_confidence_summary.csv",
+          "score": 2,
+          "size_bytes": 46,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/08_archive/11_latitude_band_diversity_turnover_20260716T202135/11_trait_confidence_summary.csv",
+          "score": 2,
+          "size_bytes": 46,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/02_data_clean/02_trait_integrated/02_reviewed_genus_trait_lookup_conflicts.csv",
+          "score": 2,
+          "size_bytes": 48,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/04_analysis_USE _THIS/11H0_strict_trait_audit/11H0_suggestion_counts.csv",
+          "score": 2,
+          "size_bytes": 64,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/04_analysis 2/11_latitude_band_diversity_turnover/11_trait_confidence_summary.csv",
+          "score": 2,
+          "size_bytes": 76,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/08_archive/11_latitude_band_diversity_turnover_20260716T124408/11_trait_confidence_summary.csv",
+          "score": 2,
+          "size_bytes": 76,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/04_analysis_USE _THIS/C3_pipeline_rebuild/01_trait_merge/C3_trait_set_counts.csv",
+          "score": 2,
+          "size_bytes": 84,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/04_analysis 2/12J_trait_stratified_gdm/12J_varImp_ballooning_la_paz_component4.csv",
+          "score": 2,
+          "size_bytes": 88,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/04_analysis 2/12J_trait_stratified_gdm/12J_varImp_ballooning_loreto_component4.csv",
+          "score": 2,
+          "size_bytes": 88,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/04_analysis_USE _THIS/12J_trait_stratified_gdm/12J_varImp_ballooning_la_paz_component4.csv",
+          "score": 2,
+          "size_bytes": 88,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/04_analysis_USE _THIS/12J_trait_stratified_gdm/12J_varImp_ballooning_loreto_component4.csv",
+          "score": 2,
+          "size_bytes": 88,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/04_analysis 2/12J_trait_stratified_gdm/12J_varImp_ballooning_la_paz_component3.csv",
+          "score": 2,
+          "size_bytes": 100,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/04_analysis 2/12J_trait_stratified_gdm/12J_varImp_ballooning_loreto_component3.csv",
+          "score": 2,
+          "size_bytes": 100,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/04_analysis_USE _THIS/12J_trait_stratified_gdm/12J_varImp_ballooning_la_paz_component3.csv",
+          "score": 2,
+          "size_bytes": 100,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/04_analysis_USE _THIS/12J_trait_stratified_gdm/12J_varImp_ballooning_loreto_component3.csv",
+          "score": 2,
+          "size_bytes": 100,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/04_analysis 2/12J_trait_stratified_gdm/12J_varImp_ballooning_loreto_component2.csv",
+          "score": 2,
+          "size_bytes": 102,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/04_analysis_USE _THIS/12J_trait_stratified_gdm/12J_varImp_ballooning_loreto_component2.csv",
+          "score": 2,
+          "size_bytes": 102,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/04_analysis 2/12J_trait_stratified_gdm/12J_varImp_ballooning_la_paz_component2.csv",
+          "score": 2,
+          "size_bytes": 103,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/04_analysis_USE _THIS/12J_trait_stratified_gdm/12J_varImp_ballooning_la_paz_component2.csv",
+          "score": 2,
+          "size_bytes": 103,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/04_analysis 2/12J_trait_stratified_gdm/12J_varImp_ballooning_mid_peninsula_component4.csv",
+          "score": 2,
+          "size_bytes": 105,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/04_analysis 2/12J_trait_stratified_gdm/12J_varImp_ballooning_north_30N_component4.csv",
+          "score": 2,
+          "size_bytes": 105,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/04_analysis 2/12J_trait_stratified_gdm/12J_varImp_non_ballooning_north_30N_component4.csv",
+          "score": 2,
+          "size_bytes": 105,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/04_analysis_USE _THIS/12J_trait_stratified_gdm/12J_varImp_ballooning_mid_peninsula_component4.csv",
+          "score": 2,
+          "size_bytes": 105,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/04_analysis_USE _THIS/12J_trait_stratified_gdm/12J_varImp_ballooning_north_30N_component4.csv",
+          "score": 2,
+          "size_bytes": 105,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/04_analysis_USE _THIS/12J_trait_stratified_gdm/12J_varImp_non_ballooning_north_30N_component4.csv",
+          "score": 2,
+          "size_bytes": 105,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/04_analysis 2/12J_trait_stratified_gdm/12J_varImp_non_ballooning_la_paz_component4.csv",
+          "score": 2,
+          "size_bytes": 107,
+          "suffix": ".csv"
+        }
+      ],
+      "top_csv_tsv_previews": [
+        {
+          "path": "PROJECT_ROOT/04_analysis 2/12J_trait_stratified_gdm/12J_matched_pairs_primary.csv",
+          "readable": true,
+          "columns": [],
+          "n_preview_rows": 0
+        },
+        {
+          "path": "PROJECT_ROOT/04_analysis_USE _THIS/12J_trait_stratified_gdm/12J_matched_pairs_primary.csv",
+          "readable": true,
+          "columns": [],
+          "n_preview_rows": 0
+        },
+        {
+          "path": "PROJECT_ROOT/08_archive/12J_trait_stratified_gdm_20260714T112007/12J_matched_pairs_primary.csv",
+          "readable": true,
+          "columns": [],
+          "n_preview_rows": 0
+        },
+        {
+          "path": "PROJECT_ROOT/08_archive/12J_trait_stratified_gdm_20260714T113031/12J_matched_pairs_primary.csv",
+          "readable": true,
+          "columns": [],
+          "n_preview_rows": 0
+        },
+        {
+          "path": "PROJECT_ROOT/04_analysis_USE _THIS/11_latitude_band_diversity_turnover/11_trait_confidence_summary.csv",
+          "readable": true,
+          "columns": [
+            "trait_confidence",
+            "genera"
+          ],
+          "n_preview_rows": 1
+        }
+      ]
+    },
+    "environment_cell_table": {
+      "status": "AMBIGUOUS_REVIEW_REQUIRED",
+      "candidates": [
+        {
+          "path": "PROJECT_ROOT/04_analysis 2/12C_cell_environment_model_table/12C_predictor_missingness.csv",
+          "score": 4,
+          "size_bytes": 5718,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/04_analysis_USE _THIS/12C_cell_environment_model_table/12C_predictor_missingness.csv",
+          "score": 4,
+          "size_bytes": 5718,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/08_archive/12C_cell_environment_model_table_20260716T140114_23340/12C_predictor_missingness.csv",
+          "score": 4,
+          "size_bytes": 5718,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/08_archive/12C_cell_environment_model_table_20260716T142148_38777/12C_predictor_missingness.csv",
+          "score": 4,
+          "size_bytes": 5718,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/08_archive/12C_cell_environment_model_table_20260716T202916_43926/12C_predictor_missingness.csv",
+          "score": 4,
+          "size_bytes": 5718,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/04_analysis/scale_sensitivity/10km/project/04_analysis/12C_cell_environment_model_table/12C_predictor_missingness.csv",
+          "score": 4,
+          "size_bytes": 5729,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/04_analysis/scale_sensitivity/10km/project/08_archive/12C_cell_environment_model_table_20260717T182632_82869/12C_predictor_missingness.csv",
+          "score": 4,
+          "size_bytes": 5729,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/04_analysis/scale_sensitivity/15km/project/04_analysis/12C_cell_environment_model_table/12C_predictor_missingness.csv",
+          "score": 4,
+          "size_bytes": 5739,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/04_analysis/scale_sensitivity/10km/project/04_analysis/12C_cell_environment_model_table/12C_predictor_summary.csv",
+          "score": 4,
+          "size_bytes": 6768,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/04_analysis/scale_sensitivity/10km/project/08_archive/12C_cell_environment_model_table_20260717T182632_82869/12C_predictor_summary.csv",
+          "score": 4,
+          "size_bytes": 6768,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/04_analysis/scale_sensitivity/15km/project/04_analysis/12C_cell_environment_model_table/12C_predictor_summary.csv",
+          "score": 4,
+          "size_bytes": 6898,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/04_analysis 2/12C_cell_environment_model_table/12C_predictor_summary.csv",
+          "score": 4,
+          "size_bytes": 6961,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/04_analysis_USE _THIS/12C_cell_environment_model_table/12C_predictor_summary.csv",
+          "score": 4,
+          "size_bytes": 6961,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/08_archive/12C_cell_environment_model_table_20260716T140114_23340/12C_predictor_summary.csv",
+          "score": 4,
+          "size_bytes": 6961,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/08_archive/12C_cell_environment_model_table_20260716T142148_38777/12C_predictor_summary.csv",
+          "score": 4,
+          "size_bytes": 6961,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/08_archive/12C_cell_environment_model_table_20260716T202916_43926/12C_predictor_summary.csv",
+          "score": 4,
+          "size_bytes": 6961,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/04_analysis 2/12C_cell_environment_model_table/12C_cell_environmental_predictors.csv",
+          "score": 4,
+          "size_bytes": 214586,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/04_analysis_USE _THIS/12C_cell_environment_model_table/12C_cell_environmental_predictors.csv",
+          "score": 4,
+          "size_bytes": 214586,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/08_archive/12C_cell_environment_model_table_20260716T140114_23340/12C_cell_environmental_predictors.csv",
+          "score": 4,
+          "size_bytes": 214586,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/08_archive/12C_cell_environment_model_table_20260716T142148_38777/12C_cell_environmental_predictors.csv",
+          "score": 4,
+          "size_bytes": 214586,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/08_archive/12C_cell_environment_model_table_20260716T202916_43926/12C_cell_environmental_predictors.csv",
+          "score": 4,
+          "size_bytes": 214586,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/04_analysis/scale_sensitivity/15km/project/04_analysis/12C_cell_environment_model_table/12C_cell_environmental_predictors.csv",
+          "score": 4,
+          "size_bytes": 330418,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/04_analysis/scale_sensitivity/10km/project/04_analysis/12C_cell_environment_model_table/12C_cell_environmental_predictors.csv",
+          "score": 4,
+          "size_bytes": 443736,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/04_analysis/scale_sensitivity/10km/project/08_archive/12C_cell_environment_model_table_20260717T182632_82869/12C_cell_environmental_predictors.csv",
+          "score": 4,
+          "size_bytes": 443736,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/04_analysis 2/12C_cell_environment_model_table/12C_trait_classification_summary.csv",
+          "score": 3,
+          "size_bytes": 165,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/08_archive/12C_cell_environment_model_table_20260716T140114_23340/12C_trait_classification_summary.csv",
+          "score": 3,
+          "size_bytes": 165,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/04_analysis 2/12C_cell_environment_model_table/12C_model_candidate_counts_by_latitude_band.csv",
+          "score": 3,
+          "size_bytes": 341,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/08_archive/12C_cell_environment_model_table_20260716T140114_23340/12C_model_candidate_counts_by_latitude_band.csv",
+          "score": 3,
+          "size_bytes": 341,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/04_analysis 2/12C_cell_environment_model_table/12C_model_candidate_set_summary.csv",
+          "score": 3,
+          "size_bytes": 379,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/08_archive/12C_cell_environment_model_table_20260716T140114_23340/12C_model_candidate_set_summary.csv",
+          "score": 3,
+          "size_bytes": 379,
+          "suffix": ".csv"
+        }
+      ],
+      "top_csv_tsv_previews": [
+        {
+          "path": "PROJECT_ROOT/04_analysis 2/12C_cell_environment_model_table/12C_predictor_missingness.csv",
+          "readable": true,
+          "columns": [
+            "field",
+            "role",
+            "n_cells",
+            "n_missing",
+            "missing_percent"
+          ],
+          "n_preview_rows": 5
+        },
+        {
+          "path": "PROJECT_ROOT/04_analysis_USE _THIS/12C_cell_environment_model_table/12C_predictor_missingness.csv",
+          "readable": true,
+          "columns": [
+            "field",
+            "role",
+            "n_cells",
+            "n_missing",
+            "missing_percent"
+          ],
+          "n_preview_rows": 5
+        },
+        {
+          "path": "PROJECT_ROOT/08_archive/12C_cell_environment_model_table_20260716T140114_23340/12C_predictor_missingness.csv",
+          "readable": true,
+          "columns": [
+            "field",
+            "role",
+            "n_cells",
+            "n_missing",
+            "missing_percent"
+          ],
+          "n_preview_rows": 5
+        },
+        {
+          "path": "PROJECT_ROOT/08_archive/12C_cell_environment_model_table_20260716T142148_38777/12C_predictor_missingness.csv",
+          "readable": true,
+          "columns": [
+            "field",
+            "role",
+            "n_cells",
+            "n_missing",
+            "missing_percent"
+          ],
+          "n_preview_rows": 5
+        },
+        {
+          "path": "PROJECT_ROOT/08_archive/12C_cell_environment_model_table_20260716T202916_43926/12C_predictor_missingness.csv",
+          "readable": true,
+          "columns": [
+            "field",
+            "role",
+            "n_cells",
+            "n_missing",
+            "missing_percent"
+          ],
+          "n_preview_rows": 5
+        }
+      ]
+    },
+    "boundary_or_ecoregion": {
+      "status": "AMBIGUOUS_REVIEW_REQUIRED",
+      "candidates": [
+        {
+          "path": "PROJECT_ROOT/04_analysis_USE _THIS/C3_pipeline_rebuild/09_C3_biogeographic_concordance/10E_published_break_concordance/10E_boundary_rank_frequencies.csv",
+          "score": 4,
+          "size_bytes": 828,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/04_analysis_USE _THIS/C3_pipeline_rebuild/09_C3_biogeographic_concordance/10D_ecoregion_boundary_turnover/10D_input_manifest.csv",
+          "score": 4,
+          "size_bytes": 859,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/04_analysis_USE _THIS/C3_pipeline_rebuild/09_C3_biogeographic_concordance/10D_ecoregion_boundary_turnover/10D_analysis_summary.json",
+          "score": 4,
+          "size_bytes": 1446,
+          "suffix": ".json"
+        },
+        {
+          "path": "PROJECT_ROOT/04_analysis_USE _THIS/C3_pipeline_rebuild/09_C3_biogeographic_concordance/10D_ecoregion_boundary_turnover/README_RESULTS_FIRST.txt",
+          "score": 4,
+          "size_bytes": 1626,
+          "suffix": ".txt"
+        },
+        {
+          "path": "PROJECT_ROOT/04_analysis_USE _THIS/C3_pipeline_rebuild/09_C3_biogeographic_concordance/10D_ecoregion_boundary_turnover/10D_cross_boundary_ecoregion_pair_summary.csv",
+          "score": 4,
+          "size_bytes": 3674,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/04_analysis_USE _THIS/C3_pipeline_rebuild/09_C3_biogeographic_concordance/10D_ecoregion_boundary_turnover/10D_permutation_null_summaries.csv",
+          "score": 4,
+          "size_bytes": 3982,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/04_analysis_USE _THIS/C3_pipeline_rebuild/09_C3_biogeographic_concordance/10D_ecoregion_boundary_turnover/10D_turnover_group_summaries.csv",
+          "score": 4,
+          "size_bytes": 5219,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/04_analysis_USE _THIS/C3_pipeline_rebuild/09_C3_biogeographic_concordance/10D_ecoregion_boundary_turnover/10D_permutation_tests.csv",
+          "score": 4,
+          "size_bytes": 6913,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/04_analysis_USE _THIS/C3_pipeline_rebuild/09_C3_biogeographic_concordance/10D_ecoregion_boundary_turnover/10D_frozen_count_validation.csv",
+          "score": 4,
+          "size_bytes": 8186,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/04_analysis_USE _THIS/C3_pipeline_rebuild/09_C3_biogeographic_concordance/10D_ecoregion_boundary_turnover/10D_top_50_total_simpson_edges.csv",
+          "score": 4,
+          "size_bytes": 19316,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/04_analysis_USE _THIS/C3_pipeline_rebuild/09_C3_biogeographic_concordance/10D_ecoregion_boundary_turnover/10D_neighbor_pair_metrics.csv",
+          "score": 4,
+          "size_bytes": 118148,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/04_analysis_USE _THIS/C3_pipeline_rebuild/09_C3_biogeographic_concordance/10A_ecoregion_gis_audit/10A_pairwise_polygon_overlaps.csv",
+          "score": 3,
+          "size_bytes": 42,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/04_analysis_USE _THIS/C3_pipeline_rebuild/09_C3_biogeographic_concordance/10E_published_break_concordance/10E_five_band_cell_counts.csv",
+          "score": 3,
+          "size_bytes": 107,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/04_analysis_USE _THIS/C3_pipeline_rebuild/09_C3_biogeographic_concordance/10E_published_break_concordance/10E_break_registry_used.csv",
+          "score": 3,
+          "size_bytes": 282,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/04_analysis_USE _THIS/C3_pipeline_rebuild/09_C3_biogeographic_concordance/10E_published_break_concordance/10E_local_window_cell_counts.csv",
+          "score": 3,
+          "size_bytes": 453,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/04_analysis_USE _THIS/C3_pipeline_rebuild/09_C3_biogeographic_concordance/10B_cell_ecoregion_crosswalk/10B_ecoregion_cell_counts.csv",
+          "score": 3,
+          "size_bytes": 471,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/04_analysis_USE _THIS/C3_pipeline_rebuild/09_C3_biogeographic_concordance/10E_published_break_concordance/README_RESULTS_FIRST.txt",
+          "score": 3,
+          "size_bytes": 514,
+          "suffix": ".txt"
+        },
+        {
+          "path": "PROJECT_ROOT/04_analysis_USE _THIS/C3_pipeline_rebuild/09_C3_biogeographic_concordance/10A_ecoregion_gis_audit/10A_arcgis_fallback_layer_manifest.csv",
+          "score": 3,
+          "size_bytes": 599,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/04_analysis_USE _THIS/C3_pipeline_rebuild/09_C3_biogeographic_concordance/10A_ecoregion_gis_audit/10A_layer_inventory.csv",
+          "score": 3,
+          "size_bytes": 637,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/04_analysis_USE _THIS/C3_pipeline_rebuild/09_C3_biogeographic_concordance/10C_equal_cell_ecoregion_richness/10C_input_manifest.csv",
+          "score": 3,
+          "size_bytes": 653,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/04_analysis_USE _THIS/C3_pipeline_rebuild/09_C3_biogeographic_concordance/10A_ecoregion_gis_audit/10A_ecoregion_labels_and_areas.csv",
+          "score": 3,
+          "size_bytes": 679,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/04_analysis_USE _THIS/C3_pipeline_rebuild/09_C3_biogeographic_concordance/10C_equal_cell_ecoregion_richness/10C_ecoregion_sample_sizes.csv",
+          "score": 3,
+          "size_bytes": 681,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/04_analysis_USE _THIS/C3_pipeline_rebuild/09_C3_biogeographic_concordance/10B_cell_ecoregion_crosswalk/10B_input_manifest.csv",
+          "score": 3,
+          "size_bytes": 706,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/04_analysis_USE _THIS/C3_pipeline_rebuild/09_C3_biogeographic_concordance/10E_published_break_concordance/10E_five_band_C3_vs_N0_contrasts.csv",
+          "score": 3,
+          "size_bytes": 839,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/04_analysis_USE _THIS/C3_pipeline_rebuild/09_C3_biogeographic_concordance/10E_published_break_concordance/10E_input_manifest.csv",
+          "score": 3,
+          "size_bytes": 840,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/04_analysis_USE _THIS/C3_pipeline_rebuild/09_C3_biogeographic_concordance/10E_published_break_concordance/10E_analysis_summary.json",
+          "score": 3,
+          "size_bytes": 855,
+          "suffix": ".json"
+        },
+        {
+          "path": "PROJECT_ROOT/04_analysis_USE _THIS/C3_pipeline_rebuild/09_C3_biogeographic_concordance/10B_cell_ecoregion_crosswalk/10B_assignment_audit_summary.csv",
+          "score": 3,
+          "size_bytes": 955,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/04_analysis_USE _THIS/C3_pipeline_rebuild/09_C3_biogeographic_concordance/10A_ecoregion_gis_audit/10A_selected_layer_summary.csv",
+          "score": 3,
+          "size_bytes": 1029,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/04_analysis_USE _THIS/C3_pipeline_rebuild/09_C3_biogeographic_concordance/10E_published_break_concordance/10E_local_C3_vs_N0_turnover_contrasts.csv",
+          "score": 3,
+          "size_bytes": 1086,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/04_analysis_USE _THIS/C3_pipeline_rebuild/09_C3_biogeographic_concordance/10G_band_ratio_synthesis/10G_ecoregion_map_values.csv",
+          "score": 3,
+          "size_bytes": 1237,
+          "suffix": ".csv"
+        }
+      ],
+      "top_csv_tsv_previews": [
+        {
+          "path": "PROJECT_ROOT/04_analysis_USE _THIS/C3_pipeline_rebuild/09_C3_biogeographic_concordance/10E_published_break_concordance/10E_boundary_rank_frequencies.csv",
+          "readable": true,
+          "columns": [
+            "assemblage",
+            "metric",
+            "boundary_latitude",
+            "frequency_highest_weighted",
+            "mean_rank"
+          ],
+          "n_preview_rows": 5
+        },
+        {
+          "path": "PROJECT_ROOT/04_analysis_USE _THIS/C3_pipeline_rebuild/09_C3_biogeographic_concordance/10D_ecoregion_boundary_turnover/10D_input_manifest.csv",
+          "readable": true,
+          "columns": [
+            "role",
+            "file",
+            "md5"
+          ],
+          "n_preview_rows": 4
+        },
+        {
+          "path": "PROJECT_ROOT/04_analysis_USE _THIS/C3_pipeline_rebuild/09_C3_biogeographic_concordance/10D_ecoregion_boundary_turnover/10D_analysis_summary.json",
+          "readable": false
+        },
+        {
+          "path": "PROJECT_ROOT/04_analysis_USE _THIS/C3_pipeline_rebuild/09_C3_biogeographic_concordance/10D_ecoregion_boundary_turnover/README_RESULTS_FIRST.txt",
+          "readable": false
+        },
+        {
+          "path": "PROJECT_ROOT/04_analysis_USE _THIS/C3_pipeline_rebuild/09_C3_biogeographic_concordance/10D_ecoregion_boundary_turnover/10D_cross_boundary_ecoregion_pair_summary.csv",
+          "readable": true,
+          "columns": [
+            "ecoregion_pair",
+            "n_cross_boundary_edges",
+            "mean_latitude",
+            "min_latitude",
+            "max_latitude",
+            "all_jaccard_n",
+            "all_jaccard_mean",
+            "all_jaccard_median",
+            "all_simpson_n",
+            "all_simpson_mean",
+            "all_simpson_median",
+            "C3_jaccard_n",
+            "C3_jaccard_mean",
+            "C3_jaccard_median",
+            "C3_simpson_n",
+            "C3_simpson_mean",
+            "C3_simpson_median",
+            "N0_jaccard_n",
+            "N0_jaccard_mean",
+            "N0_jaccard_median",
+            "N0_simpson_n",
+            "N0_simpson_mean",
+            "N0_simpson_median"
+          ],
+          "n_preview_rows": 5
+        }
+      ]
+    },
+    "step11_outputs": {
+      "status": "AMBIGUOUS_REVIEW_REQUIRED",
+      "candidates": [
+        {
+          "path": "PROJECT_ROOT/04_analysis_USE _THIS/11H_separate_trait_grouping/11H_latitude_N0_simpson_median_matrix.csv",
+          "score": 2,
+          "size_bytes": 329,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/04_analysis_USE _THIS/11H_separate_trait_grouping/11H_latitude_C3_jaccard_median_matrix.csv",
+          "score": 2,
+          "size_bytes": 415,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/04_analysis 2/11_latitude_band_diversity_turnover/11_biodiversity_final_simpson_turnover_matrix.csv",
+          "score": 2,
+          "size_bytes": 422,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/04_analysis_USE _THIS/11_latitude_band_diversity_turnover/11_biodiversity_final_simpson_turnover_matrix.csv",
+          "score": 2,
+          "size_bytes": 422,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/08_archive/11_latitude_band_diversity_turnover_20260716T124408/11_biodiversity_final_simpson_turnover_matrix.csv",
+          "score": 2,
+          "size_bytes": 422,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/08_archive/11_latitude_band_diversity_turnover_20260716T202135/11_biodiversity_final_simpson_turnover_matrix.csv",
+          "score": 2,
+          "size_bytes": 422,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/04_analysis 2/11_latitude_band_diversity_turnover/11_taxonomy_strict_simpson_turnover_matrix.csv",
+          "score": 2,
+          "size_bytes": 426,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/04_analysis_USE _THIS/11_latitude_band_diversity_turnover/11_taxonomy_strict_simpson_turnover_matrix.csv",
+          "score": 2,
+          "size_bytes": 426,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/08_archive/11_latitude_band_diversity_turnover_20260716T124408/11_taxonomy_strict_simpson_turnover_matrix.csv",
+          "score": 2,
+          "size_bytes": 426,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/08_archive/11_latitude_band_diversity_turnover_20260716T202135/11_taxonomy_strict_simpson_turnover_matrix.csv",
+          "score": 2,
+          "size_bytes": 426,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/04_analysis_USE _THIS/11H_separate_trait_grouping/11H_latitude_C3_simpson_median_matrix.csv",
+          "score": 2,
+          "size_bytes": 447,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/04_analysis_USE _THIS/11H_separate_trait_grouping/11H_latitude_N0_jaccard_median_matrix.csv",
+          "score": 2,
+          "size_bytes": 465,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/04_analysis 2/11_latitude_band_diversity_turnover/11_biodiversity_final_jaccard_dissimilarity_matrix.csv",
+          "score": 2,
+          "size_bytes": 472,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/04_analysis_USE _THIS/11_latitude_band_diversity_turnover/11_biodiversity_final_jaccard_dissimilarity_matrix.csv",
+          "score": 2,
+          "size_bytes": 472,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/08_archive/11_latitude_band_diversity_turnover_20260716T124408/11_biodiversity_final_jaccard_dissimilarity_matrix.csv",
+          "score": 2,
+          "size_bytes": 472,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/08_archive/11_latitude_band_diversity_turnover_20260716T202135/11_biodiversity_final_jaccard_dissimilarity_matrix.csv",
+          "score": 2,
+          "size_bytes": 472,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/04_analysis 2/11_latitude_band_diversity_turnover/11_taxonomy_strict_jaccard_dissimilarity_matrix.csv",
+          "score": 2,
+          "size_bytes": 474,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/04_analysis_USE _THIS/11_latitude_band_diversity_turnover/11_taxonomy_strict_jaccard_dissimilarity_matrix.csv",
+          "score": 2,
+          "size_bytes": 474,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/08_archive/11_latitude_band_diversity_turnover_20260716T124408/11_taxonomy_strict_jaccard_dissimilarity_matrix.csv",
+          "score": 2,
+          "size_bytes": 474,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/08_archive/11_latitude_band_diversity_turnover_20260716T202135/11_taxonomy_strict_jaccard_dissimilarity_matrix.csv",
+          "score": 2,
+          "size_bytes": 474,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/04_analysis_USE _THIS/11H_separate_trait_grouping/11H_latitude_C3_simpson_pairwise_intervals.csv",
+          "score": 2,
+          "size_bytes": 574,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/04_analysis_USE _THIS/11H_separate_trait_grouping/11H_latitude_N0_simpson_pairwise_intervals.csv",
+          "score": 2,
+          "size_bytes": 610,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/04_analysis_USE _THIS/11H_separate_trait_grouping/11H_latitude_C3_jaccard_pairwise_intervals.csv",
+          "score": 2,
+          "size_bytes": 686,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/04_analysis_USE _THIS/11H_separate_trait_grouping/11H_latitude_N0_jaccard_pairwise_intervals.csv",
+          "score": 2,
+          "size_bytes": 711,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/04_analysis_USE _THIS/11H_separate_trait_grouping/11H_ecoregion_C3_simpson_median_matrix.csv",
+          "score": 2,
+          "size_bytes": 1391,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/04_analysis_USE _THIS/11H_separate_trait_grouping/11H_ecoregion_N0_simpson_median_matrix.csv",
+          "score": 2,
+          "size_bytes": 1827,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/04_analysis_USE _THIS/11H_separate_trait_grouping/11H_ecoregion_C3_jaccard_median_matrix.csv",
+          "score": 2,
+          "size_bytes": 1877,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/04_analysis_USE _THIS/11H_separate_trait_grouping/11H_ecoregion_N0_jaccard_median_matrix.csv",
+          "score": 2,
+          "size_bytes": 1941,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/04_analysis 2/12H_single_figure_synthesis/12H_panel_B_simpson_turnover.csv",
+          "score": 2,
+          "size_bytes": 2021,
+          "suffix": ".csv"
+        },
+        {
+          "path": "PROJECT_ROOT/04_analysis_USE _THIS/12H_single_figure_synthesis/12H_panel_B_simpson_turnover.csv",
+          "score": 2,
+          "size_bytes": 2021,
+          "suffix": ".csv"
+        }
+      ],
+      "top_csv_tsv_previews": [
+        {
+          "path": "PROJECT_ROOT/04_analysis_USE _THIS/11H_separate_trait_grouping/11H_latitude_N0_simpson_median_matrix.csv",
+          "readable": true,
+          "columns": [
+            "",
+            "23-24N",
+            "24-26N",
+            "26-28N",
+            "28-30N",
+            "30-32N"
+          ],
+          "n_preview_rows": 5
+        },
+        {
+          "path": "PROJECT_ROOT/04_analysis_USE _THIS/11H_separate_trait_grouping/11H_latitude_C3_jaccard_median_matrix.csv",
+          "readable": true,
+          "columns": [
+            "",
+            "23-24N",
+            "24-26N",
+            "26-28N",
+            "28-30N",
+            "30-32N"
+          ],
+          "n_preview_rows": 5
+        },
+        {
+          "path": "PROJECT_ROOT/04_analysis 2/11_latitude_band_diversity_turnover/11_biodiversity_final_simpson_turnover_matrix.csv",
+          "readable": true,
+          "columns": [
+            "latitude_band",
+            "23-24N",
+            "24-26N",
+            "26-28N",
+            "28-30N",
+            "30-32N"
+          ],
+          "n_preview_rows": 5
+        },
+        {
+          "path": "PROJECT_ROOT/04_analysis_USE _THIS/11_latitude_band_diversity_turnover/11_biodiversity_final_simpson_turnover_matrix.csv",
+          "readable": true,
+          "columns": [
+            "latitude_band",
+            "23-24N",
+            "24-26N",
+            "26-28N",
+            "28-30N",
+            "30-32N"
+          ],
+          "n_preview_rows": 5
+        },
+        {
+          "path": "PROJECT_ROOT/08_archive/11_latitude_band_diversity_turnover_20260716T124408/11_biodiversity_final_simpson_turnover_matrix.csv",
+          "readable": true,
+          "columns": [
+            "latitude_band",
+            "23-24N",
+            "24-26N",
+            "26-28N",
+            "28-30N",
+            "30-32N"
+          ],
+          "n_preview_rows": 5
+        }
+      ]
+    }
+  },
+  "overall_status": "REVIEW_REQUIRED",
+  "important_rule": "No candidate is automatically accepted as the authoritative Phase 13 input solely by filename score.",
+  "missing_categories": []
+}

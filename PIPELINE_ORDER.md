@@ -21,3 +21,18 @@
 | optional | 12J | Exploratory supplementary GDM only. |
 | optional | 12N | Exploratory OMI environmental-niche position and breadth analysis; C3 versus fixed N0 with occupancy and taxonomy controls. |
 | optional | 11H | Separate C3 and fixed-N0 geographic grouping, clustering, PCoA, Mantel comparison, and Baja map. |
+
+<!-- PHASE13_PIPELINE_START -->
+## Supplementary Phase 13 extension
+
+| Order | Step | Purpose |
+|---:|:---|:---|
+| 17 | 13A | Audit and lock retained incidence, trait, environmental, and boundary inputs. |
+| 18 | 13B | Construct independently frozen historical-boundary signals without outcome testing. |
+| 19 | 13C | Construct the frozen domain-balanced contemporary-environment signal. |
+| 20 | 13D | Build paired C3 and N0 Jaccard and Simpson dissimilarities. |
+| 21 | 13E | Join historical, environmental, geographic, and community signals. |
+| 22 | 13F | Primary paired historical-versus-contemporary cell-label permutation test. |
+| supplementary | 13G | Pre-specified robustness and sensitivity analyses. |
+| exploratory | 13H1–13H3 | Post-hoc Mulegé/ecoregion-junction follow-up. |
+<!-- PHASE13_PIPELINE_END -->

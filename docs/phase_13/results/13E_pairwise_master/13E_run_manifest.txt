@@ -1,0 +1,17 @@
+PHASE 13E RUN MANIFEST
+python=3.14.0 (main, Oct  7 2025, 09:34:52) [Clang 17.0.0 (clang-1700.4.4.1)]
+project_root=PROJECT_ROOT
+boundary_input=PROJECT_ROOT/04_analysis_USE _THIS/13_historical_vs_contemporary/13B_historical_boundary_signals/13B_cell_boundary_signals_long.csv
+boundary_input_sha256=74b28345d860c4cbb97fb4d05384eab685eed520a664480ad51126c3a7f8e6b9
+environment_input=PROJECT_ROOT/04_analysis_USE _THIS/13_historical_vs_contemporary/13C_contemporary_environment_signal/13C_pairwise_environment_distance.csv
+environment_input_sha256=afe91e03b1c10f7314183e959e6108d7cba313a5705523762c9d4329829bbd1d
+community_input=PROJECT_ROOT/04_analysis_USE _THIS/13_historical_vs_contemporary/13D_paired_C3_N0_community_dissimilarity/13D_pairwise_C3_N0_dissimilarity_wide.csv
+community_input_sha256=3426491d5ed484415bd8d4224af6563501912aec9c399a7970e0c1e12eccdac9
+n_cells=189
+n_all_pairs=17766
+n_paired_valid_pairs=16400
+primary_historical_boundaries=B01,B03
+secondary_contextual_boundaries=B02,B04
+primary_environment_signal=envdist_primary_balanced
+geographic_control=great-circle centroid distance km
+inference_performed=NO

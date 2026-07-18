@@ -1,0 +1,23 @@
+{
+  "release": "1.0.6",
+  "release_date": "2026-07-18",
+  "trait_counts": {
+    "C3": 87,
+    "N0": 140,
+    "D4_excluded": 40,
+    "total": 267
+  },
+  "cells": {
+    "occupied": 205,
+    "environment_eligible": 189,
+    "primary_complete_matrix": 120,
+    "primary_pairs": 7140
+  },
+  "hierarchy": {
+    "confirmatory": "13F",
+    "robustness": "13G",
+    "exploratory": "13H1-13H3"
+  },
+  "primary_conclusion": "Lower C3 Simpson replacement was not explained by stronger contemporary-environment tracking or weaker historical-boundary structure.",
+  "mulege_conclusion": "No block-bootstrap-supported discrete Mulege bump or general ecoregion-junction effect."
+}

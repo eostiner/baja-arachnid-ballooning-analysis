@@ -1,0 +1,11 @@
+dataset,metric,n_pairs,term,beta_descriptive_only,model_R2_descriptive_only,permutation_inference,reason
+all_paired_valid_incomplete_pair_set,simpson_replacement,16400,Intercept,-0.23778302826762152,0.005625374772440517,NOT_PERFORMED,Incomplete pair graph; ordinary row-wise p-values would be anti-conservative.
+all_paired_valid_incomplete_pair_set,simpson_replacement,16400,z_geo,-0.059445400003120444,0.005625374772440517,NOT_PERFORMED,Incomplete pair graph; ordinary row-wise p-values would be anti-conservative.
+all_paired_valid_incomplete_pair_set,simpson_replacement,16400,z_env,0.026181599784779734,0.005625374772440517,NOT_PERFORMED,Incomplete pair graph; ordinary row-wise p-values would be anti-conservative.
+all_paired_valid_incomplete_pair_set,simpson_replacement,16400,B01_LaPaz,-0.06098316790086766,0.005625374772440517,NOT_PERFORMED,Incomplete pair graph; ordinary row-wise p-values would be anti-conservative.
+all_paired_valid_incomplete_pair_set,simpson_replacement,16400,B03_Vizcaino,0.07939754406222743,0.005625374772440517,NOT_PERFORMED,Incomplete pair graph; ordinary row-wise p-values would be anti-conservative.
+all_paired_valid_incomplete_pair_set,jaccard_total,16400,Intercept,0.006107128478997274,0.0034216794935213457,NOT_PERFORMED,Incomplete pair graph; ordinary row-wise p-values would be anti-conservative.
+all_paired_valid_incomplete_pair_set,jaccard_total,16400,z_geo,0.0004326452256633696,0.0034216794935213457,NOT_PERFORMED,Incomplete pair graph; ordinary row-wise p-values would be anti-conservative.
+all_paired_valid_incomplete_pair_set,jaccard_total,16400,z_env,-0.003707334814478262,0.0034216794935213457,NOT_PERFORMED,Incomplete pair graph; ordinary row-wise p-values would be anti-conservative.
+all_paired_valid_incomplete_pair_set,jaccard_total,16400,B01_LaPaz,0.005710494073713042,0.0034216794935213457,NOT_PERFORMED,Incomplete pair graph; ordinary row-wise p-values would be anti-conservative.
+all_paired_valid_incomplete_pair_set,jaccard_total,16400,B03_Vizcaino,-0.019473888881398255,0.0034216794935213457,NOT_PERFORMED,Incomplete pair graph; ordinary row-wise p-values would be anti-conservative.

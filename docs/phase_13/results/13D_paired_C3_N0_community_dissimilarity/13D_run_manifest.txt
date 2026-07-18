@@ -1,0 +1,19 @@
+PHASE 13D RUN MANIFEST
+python=3.14.0 (main, Oct  7 2025, 09:34:52) [Clang 17.0.0 (clang-1700.4.4.1)]
+project_root=PROJECT_ROOT
+incidence=PROJECT_ROOT/02_data_clean/08_grid25km_incidence/10_biodiversity_final_genus_by_grid25km_incidence.csv
+incidence_sha256=62b3fad7675edb8e477318e382e4db3057b0fbdcc03a4fc69d347a6b3d1e519b
+trait_lookup=PROJECT_ROOT/04_analysis_USE _THIS/11G_trait_partitioned_equal_cell/11G_normalized_trait_lookup.csv
+trait_lookup_sha256=a3cfc20a8b305b519c5801fc29f36d7c639e09adefec99c7d37dc784eb7559e9
+eligible_cells=PROJECT_ROOT/04_analysis_USE _THIS/13_historical_vs_contemporary/13C_contemporary_environment_signal/13C_cell_environment_standardized.csv
+eligible_cells_sha256=44c7e6c1c64f9e92c4ba88dda919b9446563ab70a4e2c80ad5893d8148a8d764
+n_retained_genera=267
+C3_genera=87
+D4_excluded_genera=40
+N0_genera=140
+n_cells=189
+n_unordered_cell_pairs=17766
+primary_metrics=Jaccard total dissimilarity; Simpson replacement dissimilarity
+historical_boundary_testing_performed=NO
+environment_testing_performed=NO
+outcome_based_pair_selection=NO

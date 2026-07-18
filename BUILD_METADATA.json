@@ -1,6 +1,6 @@
 {
-  "release": "1.0.5",
-  "built": "2026-07-16",
+  "release": "1.0.6",
+  "built": "2026-07-18",
   "canonical_scripts_only": true,
   "primary_trait_definition": "C3 = D1 + D2 + D3 versus fixed N0; D4 excluded",
   "authoritative_trait_schema": {
@@ -32,8 +32,17 @@
     "dynamic_candidate_counts": "PASS on fresh run: primary 189; ge5 90; ge10 43",
     "R_execution_in_build_runtime": "NOT AVAILABLE; GitHub Actions parses all R sources",
     "r_balanced_delimiter_check": "PASS (15 R scripts)",
-    "pipeline_dry_run": "PASS"
+    "pipeline_dry_run": "PASS",
+    "phase_13_13A_through_13H3": "PASS"
   },
   "python_unit_tests": 9,
-  "reference_map_visual_qc": "docs/MAP_QC.md"
+  "reference_map_visual_qc": "docs/MAP_QC.md",
+  "phase_13": {
+    "status": "complete",
+    "primary_step": "13F",
+    "robustness_step": "13G",
+    "exploratory_local_steps": "13H1-13H3",
+    "primary_conclusion": "Lower C3 Simpson replacement was not explained by stronger contemporary-environment tracking or weaker historical-boundary structure.",
+    "mulege_conclusion": "No block-bootstrap-supported discrete Mulege bump or general ecoregion-junction effect."
+  }
 }

@@ -1,0 +1,2 @@
+status,n_Costa_Central_del_Golfo_cells,center_latitude,south_flank_latitude,north_flank_latitude,predicted_center_minus_mean_flanks,bootstrap_valid,bootstrap_ci_low_2p5,bootstrap_ci_high_97p5,bootstrap_probability_positive,bootstrap_p_two_sided_sign,analysis_status
+PASS,40,26.89,26.2,27.58,-0.013659202111617863,1999,-0.02594433312556934,-0.0002092512864953614,0.0245,0.049,EXPLORATORY_POST_HOC

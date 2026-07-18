@@ -1,0 +1,10 @@
+check,observed,expected,status
+13H1 analysis cells,189,189,PASS
+Step10B reference crosswalk cells,205,205,PASS
+Step10B crosswalk cells retained,189,189,PASS
+Step10B overlap rows retained,324,report,PASS
+Step10D reference rook-neighbor edges,284,284,PASS
+Step10D analysis-set rook-neighbor edges,248,report,PASS
+final predictor cells,189,189,PASS
+junction-score eligible cells,189,report,PASS
+Mulege 75-km focal cells,13,report,PASS

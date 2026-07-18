@@ -1,0 +1,24 @@
+PHASE 13F RUN MANIFEST
+python=3.14.0 (main, Oct  7 2025, 09:34:52) [Clang 17.0.0 (clang-1700.4.4.1)]
+project_root=PROJECT_ROOT
+master_input=PROJECT_ROOT/04_analysis_USE _THIS/13_historical_vs_contemporary/13E_pairwise_master/13E_pairwise_master_all_pairs.csv
+master_input_sha256=eb24d64d6add35cb6dbacf7925e3b1bb75b1bd4ffb63c3888f7e5f8ca07785ff
+cell_richness_input=PROJECT_ROOT/04_analysis_USE _THIS/13_historical_vs_contemporary/13D_paired_C3_N0_community_dissimilarity/13D_cell_trait_richness.csv
+cell_richness_input_sha256=af3d37e0a9fbe4cb6744bca0dde48b9b011f64d29a1a822f263927ca4b2ad836
+n_phase13C_eligible_cells=189
+n_primary_both_traits_present_cells=120
+n_primary_complete_pairs=7140
+permutations=4999
+seed=20260718
+log_geo_mean_before_z=5.792754718234096
+log_geo_sd_before_z=0.8924548435075532
+environment_mean_before_z=1.2609773207533086
+environment_sd_before_z=0.4796600355895431
+condition_number=4.413219489529483
+primary_metric=Simpson replacement
+secondary_metric=Jaccard total dissimilarity
+primary_historical_boundaries=B01_LaPaz,B03_Vizcaino
+primary_environment=13C domain-balanced environmental distance
+geographic_control=z(log1p great-circle distance km)
+inference=Freedman-Lane-style cell-label residual permutation
+ordinary_iid_regression_p_values_used=NO

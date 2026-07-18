@@ -1,0 +1,11 @@
+domain,predictor,direction,role,notes
+thermal,tmean_c,raw,primary,Mean thermal regime
+thermal,tseason_monthly_sd_c,raw,primary,Seasonal thermal variability
+moisture,precip_annual_mean_mm,raw,primary,Long-term annual precipitation
+moisture,precip_interannual_cv_pct,raw,primary,Interannual precipitation variability
+moisture,vpd_mean_kpa,raw,primary,Atmospheric moisture demand
+moisture,soil_water_mean_frac,raw,primary,Mean soil-water availability
+wind,wind_speed_mean_ms,raw,primary,Mean near-surface wind regime
+wind,wind_monthly_sd_ms,raw,primary,Wind seasonality/variability
+vegetation,evi_mean,raw,primary,Mean vegetation greenness/productivity proxy
+vegetation,evi_interannual_cv_pct,raw,primary,Interannual vegetation variability

@@ -1,0 +1,12 @@
+PHASE 13B RUN MANIFEST
+python=3.14.0 (main, Oct  7 2025, 09:34:52) [Clang 17.0.0 (clang-1700.4.4.1)]
+project_root=PROJECT_ROOT
+cell_lookup=PROJECT_ROOT/02_data_clean/08_grid25km_incidence/10_common_grid25km_cell_lookup.csv
+cell_lookup_sha256=59536f8f4648aad48d02ee8f4f0f0247ee87f3eadd3e9d5ad9181b3f75f7b34f
+config_source=PHASE_13_STARTER/configs/phase_13_boundaries_frozen.csv
+config_source_sha256=07c96beaaea8cf8644577e685a072e6c311b88767c7f69883c8c75bb03f56461
+n_cells=205
+n_boundaries=4
+primary_boundaries=B01,B03
+secondary_boundaries=B02,B04
+outcome_testing_performed=NO

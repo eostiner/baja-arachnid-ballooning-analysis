@@ -1,0 +1,2 @@
+mulege_radius_km,mulege_n_cells,mulege_mean_baseline_residual,candidate_windows_n_ge5,mulege_percentile_among_all_windows,matched_window_count,mulege_percentile_among_similar_n_windows,note
+75.0,13,0.2823679818109083,189,0.8624338624338624,119,0.8991596638655462,"Descriptive spatial rarity scan, not a confirmatory P-value."

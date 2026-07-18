@@ -1,0 +1,15 @@
+PHASE 13C RUN MANIFEST
+python=3.14.0 (main, Oct  7 2025, 09:34:52) [Clang 17.0.0 (clang-1700.4.4.1)]
+project_root=PROJECT_ROOT
+environment_table=PROJECT_ROOT/04_analysis_USE _THIS/12C_cell_environment_model_table/12C_cell_environment_model_table.csv
+environment_table_sha256=9f037df1c586103eb5abb1dedeca34a83f7c917f6fe4c436bc1628869be451a0
+config_source=PHASE_13_STARTER/configs/phase_13_contemporary_predictors_frozen.csv
+config_source_sha256=c5813b355f2390a5004a51f3e820b5a09e3f92549d4cb4ebe8a4181ac3bb2840
+n_cells_input=205
+n_cells_eligible=189
+n_cell_pairs=17766
+eligibility_rule=recommended_primary_model_cell == True
+primary_environment_signal=equal-weight mean of thermal/moisture/wind/vegetation domain distances
+outcome_based_predictor_selection=NO
+C3_N0_outcome_testing_performed=NO
+ECOSTRESS_included=NO (retained Step 12L coverage failure)

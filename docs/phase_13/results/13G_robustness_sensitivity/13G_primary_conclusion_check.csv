@@ -1,0 +1,2 @@
+primary_metric,n_confirmatory_sensitivity_specs,n_specs_supporting_significant_positive_environment_difference,n_specs_with_significant_joint_historical_difference,robustness_conclusion,interpretive_rule
+simpson_replacement,8,0,0,13F_null_conclusion_robust,Do not overturn 13F based on isolated exploratory results; review pre-specified confirmatory sensitivities and effect directions.

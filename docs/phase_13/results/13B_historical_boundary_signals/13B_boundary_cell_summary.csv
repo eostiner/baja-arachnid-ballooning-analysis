@@ -1,0 +1,5 @@
+boundary_id,boundary_name,boundary_role,boundary_representation,boundary_low_lat,boundary_high_lat,boundary_center_lat,n_cells,n_inside_zone,n_within_25km,n_within_50km,n_within_100km,min_distance_km,median_distance_km,max_distance_km
+B01,Isthmus_La_Paz,primary,latitude_zone,24.0,25.0,24.5,205,23,33,39,58,0.0,289.71359096400016,788.1191921925
+B02,Loreto_transition,secondary,latitude_line,26.0,26.0,26.0,205,0,8,20,36,2.489411421000069,250.14932025299981,676.9241921925001
+B03,Vizcaino_midpeninsular,primary,latitude_zone,27.0,28.0,27.5,205,28,36,45,65,0.0,206.5946279355,454.53419219250003
+B04,Northern_transition,secondary,latitude_line,30.0,30.0,30.0,205,0,10,19,34,7.604692767000082,266.2614090359998,772.0625341169999
