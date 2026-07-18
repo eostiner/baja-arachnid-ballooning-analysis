@@ -1,0 +1,24 @@
+{
+  "created_utc": "2026-07-18 03:17:20 UTC",
+  "script_version": "12N_OMI_v1_2026-07-18",
+  "script_path": "/Users/estiner/Desktop/baja-arachnid-ballooning-analysis-fresh/scripts/environment/step_12N/12N_omi_environmental_niche_analysis.R",
+  "project_root": "/Users/estiner/Desktop/OLD BALLOONING/Baja_Ballooning_Pipeline",
+  "inputs": {
+    "primary_incidence": "/Users/estiner/Desktop/OLD BALLOONING/Baja_Ballooning_Pipeline/ANALYSIS_READY_INPUTS/02_incidence_matrices_25km/10_biodiversity_final_genus_by_grid25km_incidence.csv",
+    "taxonomy_strict_incidence": "/Users/estiner/Desktop/OLD BALLOONING/Baja_Ballooning_Pipeline/ANALYSIS_READY_INPUTS/02_incidence_matrices_25km/10_biodiversity_taxonomy_strict_genus_by_grid25km_incidence.csv",
+    "trait_lookup": "/Users/estiner/Desktop/OLD BALLOONING/Baja_Ballooning_Pipeline/ANALYSIS_READY_INPUTS/03_trait_tables/07_reviewed_genus_trait_lookup_normalized.csv",
+    "step12c_response": "/Users/estiner/Desktop/OLD BALLOONING/Baja_Ballooning_Pipeline/04_analysis/12C_cell_environment_model_table/12C_primary_glm_candidate_table.csv",
+    "step12f_scores": "/Users/estiner/Desktop/OLD BALLOONING/Baja_Ballooning_Pipeline/04_analysis/12F_environment_predictor_scores/12F_environment_predictor_scores_by_cell.csv",
+    "cell_geojson": "/Users/estiner/Desktop/OLD BALLOONING/Baja_Ballooning_Pipeline/ANALYSIS_READY_INPUTS/04_spatial_reference/10_common_grid25km_cells.geojson"
+  },
+  "environmental_predictors": ["vpd_z", "wind_seasonality_z", "vegetation_axis", "topography_axis"],
+  "primary_trait_definition": "C3 = D1 + D2 + D3/C3 versus fixed N0; D4 excluded",
+  "primary_minimum_occupied_cells": 5,
+  "sensitivity_minimum_occupied_cells": 10,
+  "permutations": 5000,
+  "seed": 20260717,
+  "analyzed_cells": 97,
+  "primary_genera": 73,
+  "retention_classification": "exploratory",
+  "retention_reason": "The C3 niche-breadth effect is directionally consistent but one or both 95% intervals include zero."
+}

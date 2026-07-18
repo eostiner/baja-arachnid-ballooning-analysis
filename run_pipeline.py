@@ -40,6 +40,7 @@ def main() -> int:
     ap.add_argument("--environment-source", type=Path, help="Optional Step 12B GEE export folder; defaults to ~/Downloads/Baja_Ballooning_12B.")
     ap.add_argument("--continue-on-error", action="store_true")
     ap.add_argument("--include-gdm", action="store_true", help="Run supplementary Step 12J v6 after the retained pipeline.")
+    ap.add_argument("--include-omi", action="store_true", help="Run exploratory Step 12N OMI niche analysis after the retained pipeline.")
     args = ap.parse_args()
     root = args.project_root.expanduser().resolve()
     if not root.is_dir(): ap.error(f"Project root not found: {root}")
@@ -54,7 +55,7 @@ def main() -> int:
     if unknown_skips:
         ap.error(f"Unknown --skip-step value(s): {', '.join(unknown_skips)}")
     selected = [row for row in STEPS[start_index:end_index + 1] if row[0] not in set(args.skip_step)]
-    needs_r = any(kind == "R" for _, kind, _, _ in selected) or args.include_gdm
+    needs_r = any(kind == "R" for _, kind, _, _ in selected) or args.include_gdm or args.include_omi
     if not args.dry_run and needs_r and shutil.which("Rscript") is None:
         print("ERROR: Rscript was not found in PATH.", file=sys.stderr)
         return 2
@@ -75,6 +76,20 @@ def main() -> int:
         cmd = ["Rscript", str(HERE/"scripts/supplementary/step_12J/12J_master_trait_stratified_gdm.R"), str(root), "paper", "199", "500", "20260714", "4"]
         print("\nSUPPLEMENTARY 12J:", " ".join(cmd)); result = subprocess.run(cmd)
         if result.returncode: failures.append(("12J", result.returncode))
+    if args.include_omi and not failures:
+        cmd = [
+            "Rscript",
+            str(HERE/"scripts/environment/step_12N/12N_omi_environmental_niche_analysis.R"),
+            str(root),
+            "5000",
+            "20260717",
+        ]
+        print("\nEXPLORATORY 12N:", " ".join(cmd))
+        if not args.dry_run:
+            result = subprocess.run(cmd)
+            if result.returncode:
+                failures.append(("12N", result.returncode))
+
     if not failures:
         if not args.dry_run:
             subprocess.run([sys.executable, str(HERE/"tools/collect_publication_figures.py"), str(root)], check=False)

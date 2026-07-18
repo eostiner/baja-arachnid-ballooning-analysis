@@ -1,0 +1,15 @@
+STEP 12N OMI RETENTION SCREEN
+=============================
+
+Classification: exploratory
+Reason: The C3 niche-breadth effect is directionally consistent but one or both 95% intervals include zero.
+
+Interpretation:
+OMI describes realized environmental niche position and breadth across the sampled Baja cells.
+It does not identify the immediate weather conditions that trigger individual ballooning events.
+A broader niche among ballooning-capable genera would support environmental generalism or broader realized occupancy, not causation by ballooning alone.
+
+Primary reporting rule:
+Use the occupancy- and order-adjusted C3 coefficient as the main trait comparison.
+Treat the raw boxplot and Wilcoxon result as descriptive because niche breadth increases mechanically with the number of occupied cells.
+

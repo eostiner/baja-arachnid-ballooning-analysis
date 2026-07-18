@@ -23,6 +23,7 @@ dependencies:
   - r-scales
   - r-viridis
   - r-vegan
+  - r-ade4
   - r-inext
   - r-glmmtmb
   - r-readxl

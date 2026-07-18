@@ -1,0 +1,12 @@
+STEP 12N METHODS SUMMARY
+========================
+
+We quantified genus-level realized environmental niches using Outlying Mean Index (OMI) analysis.
+The primary analysis used 97 environmentally complete occupied 25-km cells and the four Step 12F environmental scores: VPD, wind seasonality, vegetation/phenology PC1, and topography PC1.
+The environmental table was centered and standardized by PCA, and genus incidence was linked to that environmental space using ade4::niche().
+For each genus, we calculated OMI marginality and total tolerance (Tol + Rtol), interpreted respectively as realized niche position and breadth.
+The primary trait comparison was C3 (D1-D3) versus fixed N0, with D4 excluded, and retained genera occurring in at least five analyzed cells.
+Because estimated niche breadth increases with occupancy, the primary genus-level test modeled log(1 + total tolerance) as a function of ballooning classification while controlling for log occupied-cell count and taxonomic order when estimable.
+Sensitivity analyses used a ten-cell occupancy threshold, C1/C2/C4 trait definitions, and the taxonomy-strict incidence matrix.
+Global OMI structure was evaluated with 5000 Monte Carlo permutations in the primary analysis.
+

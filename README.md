@@ -56,3 +56,23 @@ Figure_3_Biogeographic_Dispersal_Balance.{png,pdf,svg,jpg}
 
 Locked SVG, PNG, and JPG reference renderings are stored in `docs/reference_figures/` for visual regression checking. Review every fresh export with `docs/MAP_QA_CHECKLIST.md` and `docs/MAP_QC.md`. Step 10I derives displayed iteration and equal-cell counts from the current output tables.
 
+## Optional exploratory OMI niche analysis
+
+Step 12N estimates genus-level realized environmental niche position and
+breadth from the retained 25-km incidence matrix and environmental table. It
+tests whether C3 ballooning-capable genera differ from fixed N0 genera after
+accounting for occupancy and taxonomic order. The successful July 2026 run
+passed all validation checks but was classified as exploratory because
+ballooning status did not consistently explain niche breadth or position.
+
+Run it after the retained pipeline with:
+
+```bash
+python run_pipeline.py \
+  --project-root /path/to/Baja_Ballooning_Pipeline \
+  --from-step 12K1 --to-step 12K1 --skip-step 12K1 \
+  --include-omi
+```
+
+Compact successful-run summaries and SVGs are stored under
+`docs/exploratory/step_12N/`.

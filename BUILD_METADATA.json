@@ -21,7 +21,8 @@
     "all retained trait-partitioned steps prefer one canonical normalized trait table",
     "mean expected rarefaction with corrected axis and subset-envelope wording",
     "Step 10I v7.1 support file, dynamic annotations, 8-cell threshold, and a priori latitude labels",
-    "Spatial+ independent of exploratory GDM"
+    "Spatial+ independent of exploratory GDM",
+    "Optional Step 12N OMI niche analysis added with occupancy and taxonomy controls; successful run retained as exploratory supplementary output"
   ],
   "validation": {
     "python_compile": "PASS",
