@@ -1,0 +1,49 @@
+STEP 11H — SEPARATE C3 AND N0 GEOGRAPHIC GROUPING
+==================================================
+
+PURPOSE
+Analyze ballooning-capable (C3) and fixed non-ballooning (N0) assemblages
+separately to test whether their geographic composition groups differently.
+
+DATA SUPPORT
+C3: 87 genera, 148 occupied cells, 658 genus-cell presences.
+N0: 140 genera, 176 occupied cells, 867 genus-cell presences.
+
+STANDARDIZATION
+Latitude bands: 22 occupied 25-km cells per band.
+Ecoregions: 8 primary-eligible cells per ecoregion.
+Monte Carlo iterations: 5000.
+
+LATITUDE-BAND GROUPING
+C3 nearest pair: 23-24N + 24-26N (56.4% of resamples).
+N0 nearest pair: 24-26N + 26-28N (47.1% of resamples).
+C3 most-distinct band: 28-30N (61.6% of resamples).
+N0 most-distinct band: 30-32N (86.6% of resamples).
+C3 clustering leaf order: 28-30N -> 30-32N -> 26-28N -> 23-24N -> 24-26N
+N0 clustering leaf order: 26-28N -> 23-24N -> 24-26N -> 28-30N -> 30-32N
+
+ECOREGION GROUPING
+C3 nearest pair: Costa Central del Golfo + Matorrales Tropicales (28.4% of resamples).
+N0 nearest pair: Costa Central del Golfo + Matorrales Tropicales (71.0% of resamples).
+C3 most-distinct ecoregion: Desierto de Vizcaíno (38.7% of resamples).
+N0 most-distinct ecoregion: Chaparral (26.1% of resamples).
+
+C3 VS N0 DISTANCE-STRUCTURE SIMILARITY
+Latitude: Mantel rho=0.430, permutation p=0.2110.
+Ecoregion: Mantel rho=0.503, permutation p=0.0023.
+
+INTERPRETATION GUIDE
+A high nearest-pair frequency indicates a stable compositional cluster.
+A high most-distinct frequency indicates a region repeatedly isolated from
+the rest of that trait group's assemblage.
+Mantel rho measures whether C3 and N0 share the same overall distance pattern.
+
+STATUS
+Exploratory/supplementary. Review biological interpretation before inclusion
+in the public retained pipeline.
+
+PUBLICATION MAP
+PNG: /Users/estiner/Desktop/OLD BALLOONING/Baja_Ballooning_Pipeline/04_analysis_USE _THIS/11H_separate_trait_grouping/11H_Baja_C3_vs_N0_geographic_grouping.png
+Editable SVG: /Users/estiner/Desktop/OLD BALLOONING/Baja_Ballooning_Pipeline/04_analysis_USE _THIS/11H_separate_trait_grouping/11H_Baja_C3_vs_N0_geographic_grouping_EDITABLE.svg
+PDF: /Users/estiner/Desktop/OLD BALLOONING/Baja_Ballooning_Pipeline/04_analysis_USE _THIS/11H_separate_trait_grouping/11H_Baja_C3_vs_N0_geographic_grouping.pdf
+Caption: /Users/estiner/Desktop/OLD BALLOONING/Baja_Ballooning_Pipeline/04_analysis_USE _THIS/11H_separate_trait_grouping/11H_BAJA_MAP_CAPTION.txt

@@ -56,6 +56,23 @@ Figure_3_Biogeographic_Dispersal_Balance.{png,pdf,svg,jpg}
 
 Locked SVG, PNG, and JPG reference renderings are stored in `docs/reference_figures/` for visual regression checking. Review every fresh export with `docs/MAP_QA_CHECKLIST.md` and `docs/MAP_QC.md`. Step 10I derives displayed iteration and equal-cell counts from the current output tables.
 
+
+## Optional exploratory separate-grouping analysis (Step 11H)
+
+Step 11H analyzes C3 ballooning-capable and fixed N0 assemblages separately
+using equal-cell Jaccard/Simpson composition, clustering, PCoA, grouping
+stability, and Mantel comparison. It also produces a two-panel Baja map using
+the validated mainland outline.
+
+The July 2026 full-arachnid run showed shared ecoregional organization
+(Mantel rho = 0.503, p = 0.0023) but different locations of strongest
+latitudinal isolation: 28–30°N for C3 and 30–32°N for N0. Overall latitude
+concordance was not significant (rho = 0.430, p = 0.2110), so Step 11H remains
+exploratory/supplementary.
+
+Run with `--include-grouping`. Documentation and compact outputs are under
+`docs/exploratory/step_11H/`.
+
 ## Optional exploratory OMI niche analysis
 
 Step 12N estimates genus-level realized environmental niche position and

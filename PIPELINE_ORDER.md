@@ -20,3 +20,4 @@
 | 16 | 12K1 | Sampled-cell Spatial+ map. |
 | optional | 12J | Exploratory supplementary GDM only. |
 | optional | 12N | Exploratory OMI environmental-niche position and breadth analysis; C3 versus fixed N0 with occupancy and taxonomy controls. |
+| optional | 11H | Separate C3 and fixed-N0 geographic grouping, clustering, PCoA, Mantel comparison, and Baja map. |

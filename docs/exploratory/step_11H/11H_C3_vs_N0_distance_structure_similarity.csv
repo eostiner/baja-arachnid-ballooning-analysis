@@ -1,0 +1,3 @@
+scale,metric,spearman_mantel_rho,permutation_p_value,permutations
+latitude,Jaccard,0.43030303030303024,0.211,9999
+ecoregion,Jaccard,0.5028869709504087,0.0023,9999

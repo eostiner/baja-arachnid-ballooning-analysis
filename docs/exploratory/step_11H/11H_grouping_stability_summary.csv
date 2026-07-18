@@ -1,0 +1,96 @@
+scale,class,statistic,rank,group_1,group_2,frequency
+latitude,C3,nearest_pair_frequency,1,23-24N,24-26N,0.5644666666666667
+latitude,C3,nearest_pair_frequency,2,24-26N,26-28N,0.2466666666666667
+latitude,C3,nearest_pair_frequency,3,24-26N,28-30N,0.09553333333333333
+latitude,C3,nearest_pair_frequency,4,23-24N,30-32N,0.04396666666666667
+latitude,C3,nearest_pair_frequency,5,26-28N,28-30N,0.0429
+latitude,C3,nearest_pair_frequency,6,26-28N,30-32N,0.004666666666666667
+latitude,C3,nearest_pair_frequency,7,23-24N,26-28N,0.001
+latitude,C3,nearest_pair_frequency,8,28-30N,30-32N,0.0006
+latitude,C3,nearest_pair_frequency,9,24-26N,30-32N,0.0002
+latitude,C3,most_distinct_group_frequency,1,28-30N,,0.6159
+latitude,C3,most_distinct_group_frequency,2,30-32N,,0.225
+latitude,C3,most_distinct_group_frequency,3,23-24N,,0.1003
+latitude,C3,most_distinct_group_frequency,4,26-28N,,0.0582
+latitude,C3,most_distinct_group_frequency,5,24-26N,,0.0006
+latitude,N0,nearest_pair_frequency,1,24-26N,26-28N,0.4714666666666666
+latitude,N0,nearest_pair_frequency,2,23-24N,24-26N,0.4057666666666667
+latitude,N0,nearest_pair_frequency,3,26-28N,28-30N,0.06246666666666668
+latitude,N0,nearest_pair_frequency,4,28-30N,30-32N,0.0488
+latitude,N0,nearest_pair_frequency,5,24-26N,28-30N,0.0058
+latitude,N0,nearest_pair_frequency,6,23-24N,26-28N,0.0052
+latitude,N0,nearest_pair_frequency,7,24-26N,30-32N,0.0005
+latitude,N0,most_distinct_group_frequency,1,30-32N,,0.8656
+latitude,N0,most_distinct_group_frequency,2,23-24N,,0.1078
+latitude,N0,most_distinct_group_frequency,3,28-30N,,0.0222
+latitude,N0,most_distinct_group_frequency,4,26-28N,,0.0042
+latitude,N0,most_distinct_group_frequency,5,24-26N,,0.0002
+ecoregion,C3,nearest_pair_frequency,1,Costa Central del Golfo,Matorrales Tropicales,0.2841666666666666
+ecoregion,C3,nearest_pair_frequency,2,Matorral Costero,Matorrales Tropicales,0.12213333333333333
+ecoregion,C3,nearest_pair_frequency,3,Desierto Central,Desierto de San Felipe,0.11504999999999997
+ecoregion,C3,nearest_pair_frequency,4,Desierto de San Felipe,Sierra de la Giganta,0.11205
+ecoregion,C3,nearest_pair_frequency,5,Desierto Central,Sierra de la Giganta,0.06545
+ecoregion,C3,nearest_pair_frequency,6,Desierto Central,Desierto de Vizcaíno,0.06391666666666666
+ecoregion,C3,nearest_pair_frequency,7,Planicies de Magdalena,Sierra de la Giganta,0.06356666666666666
+ecoregion,C3,nearest_pair_frequency,8,Desierto de San Felipe,Desierto de Vizcaíno,0.061983333333333335
+ecoregion,C3,nearest_pair_frequency,9,Costa Central del Golfo,Sierra de la Giganta,0.05403333333333333
+ecoregion,C3,nearest_pair_frequency,10,Costa Central del Golfo,Planicies de Magdalena,0.015166666666666665
+ecoregion,C3,nearest_pair_frequency,11,Desierto Central,Planicies de Magdalena,0.008083333333333335
+ecoregion,C3,nearest_pair_frequency,12,Desierto de Vizcaíno,Planicies de Magdalena,0.006333333333333333
+ecoregion,C3,nearest_pair_frequency,13,Chaparral,Desierto Central,0.00575
+ecoregion,C3,nearest_pair_frequency,14,Costa Central del Golfo,Desierto de San Felipe,0.0054666666666666665
+ecoregion,C3,nearest_pair_frequency,15,Chaparral,Desierto de San Felipe,0.0042
+ecoregion,C3,nearest_pair_frequency,16,Desierto de San Felipe,Planicies de Magdalena,0.0037166666666666663
+ecoregion,C3,nearest_pair_frequency,17,Costa Central del Golfo,Desierto Central,0.0027333333333333337
+ecoregion,C3,nearest_pair_frequency,18,Matorral Costero,Matorral Costero Rosetófilo,0.0024
+ecoregion,C3,nearest_pair_frequency,19,Chaparral,Matorral Costero,0.0012
+ecoregion,C3,nearest_pair_frequency,20,Costa Central del Golfo,Desierto de Vizcaíno,0.0009
+ecoregion,C3,nearest_pair_frequency,21,Chaparral,Desierto de Vizcaíno,0.0009
+ecoregion,C3,nearest_pair_frequency,22,Matorrales Tropicales,Planicies de Magdalena,0.0004
+ecoregion,C3,nearest_pair_frequency,23,Desierto de Vizcaíno,Sierra de la Giganta,0.0002
+ecoregion,C3,nearest_pair_frequency,24,Costa Central del Golfo,Matorral Costero,0.0002
+ecoregion,C3,most_distinct_group_frequency,1,Desierto de Vizcaíno,,0.3871
+ecoregion,C3,most_distinct_group_frequency,2,Planicies de Magdalena,,0.1465
+ecoregion,C3,most_distinct_group_frequency,3,Desierto de San Felipe,,0.1385
+ecoregion,C3,most_distinct_group_frequency,4,Sierra de la Giganta,,0.1161
+ecoregion,C3,most_distinct_group_frequency,5,Desierto Central,,0.0653
+ecoregion,C3,most_distinct_group_frequency,6,Matorral Costero,,0.0622
+ecoregion,C3,most_distinct_group_frequency,7,Matorrales Tropicales,,0.0454
+ecoregion,C3,most_distinct_group_frequency,8,Costa Central del Golfo,,0.0197
+ecoregion,C3,most_distinct_group_frequency,9,Matorral Costero Rosetófilo,,0.0128
+ecoregion,C3,most_distinct_group_frequency,10,Chaparral,,0.0064
+ecoregion,N0,nearest_pair_frequency,1,Costa Central del Golfo,Matorrales Tropicales,0.7101
+ecoregion,N0,nearest_pair_frequency,2,Costa Central del Golfo,Sierra de la Giganta,0.08891666666666667
+ecoregion,N0,nearest_pair_frequency,3,Costa Central del Golfo,Planicies de Magdalena,0.03883333333333334
+ecoregion,N0,nearest_pair_frequency,4,Planicies de Magdalena,Sierra de la Giganta,0.024566666666666667
+ecoregion,N0,nearest_pair_frequency,5,Chaparral,Matorral Costero,0.018666666666666665
+ecoregion,N0,nearest_pair_frequency,6,Desierto de Vizcaíno,Planicies de Magdalena,0.0169
+ecoregion,N0,nearest_pair_frequency,7,Desierto Central,Desierto de San Felipe,0.014566666666666669
+ecoregion,N0,nearest_pair_frequency,8,Costa Central del Golfo,Desierto de Vizcaíno,0.01385
+ecoregion,N0,nearest_pair_frequency,9,Desierto de Vizcaíno,Sierra de la Giganta,0.011466666666666667
+ecoregion,N0,nearest_pair_frequency,10,Matorrales Tropicales,Planicies de Magdalena,0.0109
+ecoregion,N0,nearest_pair_frequency,11,Desierto Central,Sierra de la Giganta,0.010816666666666667
+ecoregion,N0,nearest_pair_frequency,12,Matorrales Tropicales,Sierra de la Giganta,0.0087
+ecoregion,N0,nearest_pair_frequency,13,Desierto Central,Desierto de Vizcaíno,0.00745
+ecoregion,N0,nearest_pair_frequency,14,Desierto de San Felipe,Desierto de Vizcaíno,0.0054
+ecoregion,N0,nearest_pair_frequency,15,Chaparral,Desierto de San Felipe,0.004466666666666667
+ecoregion,N0,nearest_pair_frequency,16,Matorral Costero Rosetófilo,Planicies de Magdalena,0.0043
+ecoregion,N0,nearest_pair_frequency,17,Chaparral,Desierto Central,0.0026
+ecoregion,N0,nearest_pair_frequency,18,Desierto Central,Matorral Costero,0.0024333333333333334
+ecoregion,N0,nearest_pair_frequency,19,Desierto de San Felipe,Sierra de la Giganta,0.0018
+ecoregion,N0,nearest_pair_frequency,20,Costa Central del Golfo,Desierto Central,0.0011666666666666665
+ecoregion,N0,nearest_pair_frequency,21,Desierto de San Felipe,Matorral Costero,0.0008
+ecoregion,N0,nearest_pair_frequency,22,Costa Central del Golfo,Desierto de San Felipe,0.0006
+ecoregion,N0,nearest_pair_frequency,23,Desierto de Vizcaíno,Matorral Costero Rosetófilo,0.0004
+ecoregion,N0,nearest_pair_frequency,24,Chaparral,Planicies de Magdalena,0.0002
+ecoregion,N0,nearest_pair_frequency,25,Desierto Central,Planicies de Magdalena,0.0001
+ecoregion,N0,most_distinct_group_frequency,1,Chaparral,,0.2606
+ecoregion,N0,most_distinct_group_frequency,2,Matorral Costero Rosetófilo,,0.2344
+ecoregion,N0,most_distinct_group_frequency,3,Desierto de Vizcaíno,,0.1668
+ecoregion,N0,most_distinct_group_frequency,4,Desierto de San Felipe,,0.0978
+ecoregion,N0,most_distinct_group_frequency,5,Sierra de la Giganta,,0.0918
+ecoregion,N0,most_distinct_group_frequency,6,Matorral Costero,,0.0662
+ecoregion,N0,most_distinct_group_frequency,7,Planicies de Magdalena,,0.0646
+ecoregion,N0,most_distinct_group_frequency,8,Matorrales Tropicales,,0.008
+ecoregion,N0,most_distinct_group_frequency,9,Desierto Central,,0.0074
+ecoregion,N0,most_distinct_group_frequency,10,Costa Central del Golfo,,0.0024

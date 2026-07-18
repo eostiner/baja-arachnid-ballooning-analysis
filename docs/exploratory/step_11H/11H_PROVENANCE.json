@@ -1,0 +1,21 @@
+{
+  "analysis": "Step 11H separate C3 and N0 geographic grouping",
+  "project_root": "/Users/estiner/Desktop/OLD BALLOONING/Baja_Ballooning_Pipeline",
+  "incidence_source": "/Users/estiner/Desktop/OLD BALLOONING/Baja_Ballooning_Pipeline/02_data_clean/08_grid25km_incidence/10_ballooning_final_genus_grid25km_incidence_long.csv",
+  "trait_source": "/Users/estiner/Desktop/OLD BALLOONING/Baja_Ballooning_Pipeline/04_analysis_USE _THIS/11G_trait_partitioned_equal_cell/11G_normalized_trait_lookup.csv",
+  "cell_lookup_source": "/Users/estiner/Desktop/OLD BALLOONING/Baja_Ballooning_Pipeline/02_data_clean/08_grid25km_incidence/10_common_grid25km_cell_lookup.csv",
+  "ecoregion_crosswalk_source": "/Users/estiner/Desktop/OLD BALLOONING/Baja_Ballooning_Pipeline/04_analysis_USE _THIS/C3_pipeline_rebuild/09_C3_biogeographic_concordance/10B_cell_ecoregion_crosswalk/10B_cell_ecoregion_crosswalk.csv",
+  "step10c_summary_source": "/Users/estiner/Desktop/OLD BALLOONING/Baja_Ballooning_Pipeline/04_analysis_USE _THIS/C3_pipeline_rebuild/09_C3_biogeographic_concordance/10C_equal_cell_ecoregion_richness/10C_equal_cell_summary.csv",
+  "grid_geojson_source": "/Users/estiner/Desktop/OLD BALLOONING/Baja_Ballooning_Pipeline/02_data_clean/08_grid25km_incidence/10_common_grid25km_cells.geojson",
+  "mainland_outline_source": "/Users/estiner/Desktop/OLD BALLOONING/Baja_Ballooning_Pipeline/04_analysis/C3_pipeline_rebuild/09_C3_biogeographic_concordance/10A_ecoregion_gis_audit/10A_mainland_outline_largest_component.gpkg",
+  "iterations": 5000,
+  "mantel_permutations": 9999,
+  "seed": 20260717,
+  "latitude_equal_cells": 22,
+  "ecoregion_equal_cells": 8,
+  "trait_definition": {
+    "C3": "D1 + D2 + D3 ballooning",
+    "N0": "fixed non-ballooning reference",
+    "D4": "excluded"
+  }
+}

@@ -1,0 +1,3 @@
+class,label,unique_genera,occupied_cells,genus_cell_presences
+C3,Ballooning (C3),87,148,658
+N0,Non-ballooning (N0),140,176,867

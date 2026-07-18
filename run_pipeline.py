@@ -41,6 +41,7 @@ def main() -> int:
     ap.add_argument("--continue-on-error", action="store_true")
     ap.add_argument("--include-gdm", action="store_true", help="Run supplementary Step 12J v6 after the retained pipeline.")
     ap.add_argument("--include-omi", action="store_true", help="Run exploratory Step 12N OMI niche analysis after the retained pipeline.")
+    ap.add_argument("--include-grouping", action="store_true", help="Run exploratory Step 11H separate C3/N0 grouping after the retained pipeline.")
     args = ap.parse_args()
     root = args.project_root.expanduser().resolve()
     if not root.is_dir(): ap.error(f"Project root not found: {root}")
@@ -76,6 +77,22 @@ def main() -> int:
         cmd = ["Rscript", str(HERE/"scripts/supplementary/step_12J/12J_master_trait_stratified_gdm.R"), str(root), "paper", "199", "500", "20260714", "4"]
         print("\nSUPPLEMENTARY 12J:", " ".join(cmd)); result = subprocess.run(cmd)
         if result.returncode: failures.append(("12J", result.returncode))
+
+    if args.include_grouping and not failures:
+        cmd = [
+            sys.executable,
+            str(HERE/"scripts/biogeography/step_11H/11H_separate_C3_N0_grouping.py"),
+            "--project-root", str(root),
+            "--iterations", "5000",
+            "--mantel-permutations", "9999",
+            "--seed", "20260717",
+        ]
+        print("\nEXPLORATORY 11H:", " ".join(cmd))
+        if not args.dry_run:
+            result = subprocess.run(cmd)
+            if result.returncode:
+                failures.append(("11H", result.returncode))
+
     if args.include_omi and not failures:
         cmd = [
             "Rscript",

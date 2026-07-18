@@ -10,6 +10,7 @@ dependencies:
   - openpyxl
   - pyproj
   - shapely
+  - scipy
   - r-base=4.4
   - r-sf
   - r-terra
