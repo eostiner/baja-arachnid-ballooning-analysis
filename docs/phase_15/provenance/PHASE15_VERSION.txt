@@ -1,0 +1,4 @@
+Baja Phase 15 Bayesian H3 package
+Version: 0.1.0
+Date: 2026-07-18
+Status: frozen first implementation for local real-data execution

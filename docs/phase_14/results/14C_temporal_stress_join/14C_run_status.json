@@ -1,0 +1,27 @@
+{
+  "phase": "14C2",
+  "script_version": "14C2_v0.2.0_2026-07-18",
+  "created_utc": "2026-07-18T23:07:38.126508+00:00",
+  "status": "COMPLETED",
+  "stress_columns": [
+    "stress_composite_z",
+    "thermal_stress_z",
+    "vpd_anomaly_z",
+    "moisture_stress_z",
+    "vegetation_stress_z",
+    "mean_temperature_anomaly_z",
+    "hot_days_35c_anomaly_z",
+    "precipitation_deficit_z",
+    "soil_water_deficit_z",
+    "evi_deficit_z"
+  ],
+  "core_stress_columns": [
+    "stress_composite_z"
+  ],
+  "turnover_rows": 15,
+  "complete_join_rows": 15,
+  "minimum_years_per_period_per_predictor": 3,
+  "primary_predictor": "delta_stress_composite_z_period2_minus_period1",
+  "secondary_predictor": "abs_delta_stress_composite_z_period2_minus_period1",
+  "next_step": "Run Phase 14D only as a limited exploratory H3 test under the Phase 14A conditional status."
+}

@@ -1,0 +1,21 @@
+{
+  "phase": "15D",
+  "script_version": "15D_v0.1.0_2026-07-18",
+  "created_utc": "2026-07-18T23:54:41.838097+00:00",
+  "status": "COMPLETED",
+  "summary": {
+    "classification": "PREDICTIVE_IMPROVEMENT_POSITIVE_BUT_UNCERTAIN",
+    "n_held_out_cells": 12,
+    "cells_with_positive_crps_improvement": 9,
+    "mean_crps_improvement_null_minus_stress": 0.035160493111438776,
+    "exact_cell_sign_flip_p_two_sided": 0.29296875,
+    "exact_sign_patterns": 4096
+  },
+  "plot_outputs": [
+    "$PROJECT_ROOT/04_analysis_USE _THIS/15_bayesian_h3_evidence/15D_leave_one_cell_out_prediction/15D_loco_predictive_improvement.png",
+    "$PROJECT_ROOT/04_analysis_USE _THIS/15_bayesian_h3_evidence/15D_leave_one_cell_out_prediction/15D_loco_predictive_improvement.svg"
+  ],
+  "chains_per_fold_model": 2,
+  "warmup": 1200,
+  "draws": 1800
+}

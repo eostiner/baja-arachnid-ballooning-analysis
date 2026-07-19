@@ -1,0 +1,16 @@
+{
+  "finalizer_version": "phase14_15_github_finalizer_v1.0.0_2026-07-18",
+  "created_utc": "2026-07-19T05:57:02.984732+00:00",
+  "release": "1.1.0",
+  "source_project": "$PROJECT_ROOT",
+  "repository": "$REPOSITORY_ROOT",
+  "phase14_files_copied": 55,
+  "phase15_files_copied": 45,
+  "optional_phase14_files_not_present": [
+    "14I_H3_evidence_synthesis/14I_H3_evidence_synthesis.pdf"
+  ],
+  "optional_phase15_files_not_present": [],
+  "phase14_status": "POSITIVE_BUT_UNCERTAIN_ACROSS_PRIMARY_MODELS",
+  "phase15_status": "POSITIVE_BUT_UNCERTAIN",
+  "frozen_spatial_sha256": "667aba35ce27efe11da518b7cf2f4264e14de2782dddfc57a1a017541110f587"
+}

@@ -1,0 +1,30 @@
+{
+  "phase": "15E",
+  "script_version": "15E_v0.1.0_2026-07-18",
+  "created_utc": "2026-07-18T23:54:44.879414+00:00",
+  "status": "COMPLETED",
+  "summary": {
+    "n_pairs": 15,
+    "n_cells": 12,
+    "process_sd_used": 0.11522299477919884,
+    "cell_sd_used": 0.11803513252397096,
+    "simulations_per_effect": 2000,
+    "exact_sign_patterns": 4096,
+    "estimated_false_positive_rate_at_zero": 0.0285,
+    "minimum_grid_effect_reaching_80pct_power": 0.3
+  },
+  "plot_outputs": [
+    "$PROJECT_ROOT/04_analysis_USE _THIS/15_bayesian_h3_evidence/15E_design_power_simulation/15E_design_power_curve.png",
+    "$PROJECT_ROOT/04_analysis_USE _THIS/15_bayesian_h3_evidence/15E_design_power_simulation/15E_design_power_curve.svg"
+  ],
+  "effect_grid": [
+    0.0,
+    0.05,
+    0.1,
+    0.15,
+    0.2,
+    0.25,
+    0.3
+  ],
+  "seed": 20260718
+}

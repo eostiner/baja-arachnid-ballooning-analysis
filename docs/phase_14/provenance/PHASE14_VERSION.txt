@@ -1,0 +1,3 @@
+Baja Phase 14 H3 Temporal Analysis v0.3.0
+Built: 2026-07-18
+Purpose: strongest available non-field follow-up to the limited H3 temporal test

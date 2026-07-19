@@ -1,0 +1,3 @@
+# Install the repository's main requirements first.
+# Required only for live Phase 14 Earth Engine extraction steps.
+earthengine-api

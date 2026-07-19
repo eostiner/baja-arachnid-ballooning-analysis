@@ -1,0 +1,12 @@
+{
+  "phase": "14I",
+  "script_version": "14I_v0.3.0_2026-07-18",
+  "created_utc": "2026-07-18T23:35:07.547959+00:00",
+  "status": "COMPLETED",
+  "overall_status": "POSITIVE_BUT_UNCERTAIN_ACROSS_PRIMARY_MODELS",
+  "models_synthesized": 12,
+  "plot_outputs": [
+    "$PROJECT_ROOT/04_analysis_USE _THIS/14_recent_environmental_stress/14I_H3_evidence_synthesis/14I_H3_evidence_synthesis.png",
+    "$PROJECT_ROOT/04_analysis_USE _THIS/14_recent_environmental_stress/14I_H3_evidence_synthesis/14I_H3_evidence_synthesis.svg"
+  ]
+}

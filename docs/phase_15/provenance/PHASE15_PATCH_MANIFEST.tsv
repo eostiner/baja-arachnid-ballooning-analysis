@@ -1,0 +1,15 @@
+path	purpose
+scripts/supplementary/phase_15/configs/phase_15_model_spec_frozen.csv	Frozen hypothesis, response, predictor, priors, and interpretation thresholds
+scripts/supplementary/phase_15/phase15_common.py	Data utilities, self-contained Bayesian sampler, diagnostics, prediction, and exact sign flips
+scripts/supplementary/phase_15/15A_prepare_bayesian_input.py	Input audit and resampling-dispersion propagation
+scripts/supplementary/phase_15/15B_fit_bayesian_h3_model.py	Primary Bayesian paired hierarchical model
+scripts/supplementary/phase_15/15C_prior_sensitivity_and_checks.py	Prior sensitivity and prior predictive checks
+scripts/supplementary/phase_15/15D_leave_one_cell_out_prediction.py	Held-out-cell stress versus null predictive comparison
+scripts/supplementary/phase_15/15E_design_power_simulation.py	Design-matched Monte Carlo power and exact sign-flip calibration
+scripts/supplementary/phase_15/15F_synthesize_phase15.py	Frozen evidence synthesis and manuscript wording
+scripts/supplementary/phase_15/run_phase15.py	Ordered runner
+docs/phase_15/README.md	Scientific rationale, frozen design, interpretation hierarchy, and scope
+INSTALL_AND_RUN.txt	Local execution instructions
+requirements-phase15.txt	Minimal Python dependencies
+VALIDATION_REPORT.txt	Compilation, synthetic recovery, prediction, power, and edge-case validation
+VERSION.txt	Package version and date

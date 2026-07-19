@@ -1,0 +1,35 @@
+{
+  "phase": "15G",
+  "script_version": "15G_v0.5.0_2026-07-19",
+  "created_utc": "2026-07-19T05:56:57.278368+00:00",
+  "project_root": "$PROJECT_ROOT",
+  "inputs": {
+    "canonical_spatial_iterations": "$PROJECT_ROOT/04_analysis_USE _THIS/C3_pipeline_rebuild/04_C3_trait_turnover_5000/05_boundary_iteration_values.csv",
+    "canonical_spatial_sha256": "667aba35ce27efe11da518b7cf2f4264e14de2782dddfc57a1a017541110f587",
+    "phase15_input": "$PROJECT_ROOT/04_analysis_USE _THIS/15_bayesian_h3_evidence/15A_input_audit/15A_bayesian_model_input.csv",
+    "posterior_draws": "$PROJECT_ROOT/04_analysis_USE _THIS/15_bayesian_h3_evidence/15B_primary_bayesian_model/15B_posterior_draws.csv",
+    "primary_result": "$PROJECT_ROOT/04_analysis_USE _THIS/15_bayesian_h3_evidence/15B_primary_bayesian_model/15B_primary_result.csv"
+  },
+  "stress_scaling": {
+    "stress_mean": 0.06529307816615755,
+    "stress_sd": 0.31947065305307765
+  },
+  "outputs": [
+    "$PROJECT_ROOT/04_analysis_USE _THIS/15_bayesian_h3_evidence/15G_spatial_temporal_figure/Figure_4_spatial_temporal_turnover_bayesian_convention_editable_text.png",
+    "$PROJECT_ROOT/04_analysis_USE _THIS/15_bayesian_h3_evidence/15G_spatial_temporal_figure/Figure_4_spatial_temporal_turnover_bayesian_convention_editable_text.svg",
+    "$PROJECT_ROOT/04_analysis_USE _THIS/15_bayesian_h3_evidence/15G_spatial_temporal_figure/Figure_4_spatial_temporal_turnover_bayesian_convention_editable_text.pdf"
+  ],
+  "notes": [
+    "No model is refitted in Phase 15G.",
+    "Panel A is locked to the original accepted 5,000-resample C3 file: 05_boundary_iteration_values.csv.",
+    "The script aborts if the reconstructed frozen Simpson or Jaccard summaries differ beyond 1e-5.",
+    "Peninsula-wide spatial contrasts are the mean of four adjacent contrasts within each canonical Monte Carlo iteration.",
+    "The temporal fitted relationship holds log-event and transition-midpoint covariates at their means and cell effect at zero.",
+    "The posterior ribbon is uncertainty in the mean relationship, not a predictive interval for new observations.",
+    "The 26\u00b0N annotation describes the boundary point estimate; it is not a separately confirmed breakpoint.",
+    "Panel C follows conventional Bayesian coefficient reporting: posterior median with nested 50% and 95% credible intervals.",
+    "The SVG preserves fonts as editable text; each Matplotlib text artist is one SVG text object, with multiline strings represented by tspans.",
+    "The SVG text audit must pass with no outlined glyph paths inside Matplotlib text groups.",
+    "Predictive validation, prior sensitivity, and posterior-density diagnostics remain in the supplementary Phase 15 outputs."
+  ]
+}

@@ -1,0 +1,11 @@
+predictor,core,orientation,domain,description
+stress_composite_z,1,positive_more_stress,composite,Mean of available thermal atmospheric-drought moisture-deficit and vegetation-deficit standardized domains; at least three domains required
+thermal_stress_z,0,positive_more_stress,thermal,Mean of annual mean-temperature and hot-day standardized anomalies
+vpd_anomaly_z,0,positive_more_stress,atmospheric_drought,Annual mean vapor-pressure-deficit standardized anomaly
+moisture_stress_z,0,positive_more_stress,moisture,Mean of precipitation-deficit and root-zone-soil-water-deficit standardized anomalies
+vegetation_stress_z,0,positive_more_stress,vegetation,Negative annual EVI standardized anomaly
+mean_temperature_anomaly_z,0,positive_more_stress,thermal,Annual mean 2-m temperature standardized anomaly
+hot_days_35c_anomaly_z,0,positive_more_stress,thermal,Annual count of days with maximum 2-m temperature above 35 C standardized anomaly
+precipitation_deficit_z,0,positive_more_stress,moisture,Negative annual precipitation standardized anomaly
+soil_water_deficit_z,0,positive_more_stress,moisture,Negative annual mean upper-root-zone soil-water standardized anomaly
+evi_deficit_z,0,positive_more_stress,vegetation,Negative annual mean EVI standardized anomaly

@@ -1,0 +1,20 @@
+item,value,role,justification
+response,resampled_delta_simpson_C3_minus_N0_median,primary,C3-minus-N0 temporal Simpson replacement
+response_q025,resampled_delta_simpson_C3_minus_N0_q025,measurement uncertainty,lower resampling quantile
+response_q975,resampled_delta_simpson_C3_minus_N0_q975,measurement uncertainty,upper resampling quantile
+predictor,delta_stress_composite_z_period2_minus_period1,primary,pre-specified Phase 14 composite stress change
+predictor_orientation,positive means period 2 was more stressful than period 1,interpretation,H3 predicts positive beta
+control_1,log1p(common_event_resample_n),sampling control,controls balanced event depth
+control_2,transition midpoint year,temporal control,controls broad time trend
+cluster,grid_cell_id,hierarchical grouping,accounts for repeated comparisons within cells
+likelihood,Normal observation plus Student-t process error,robust measurement-error model,separates resampling dispersion from ecological residual variation
+student_t_df,4,frozen,robust to influential pairs
+beta_prior_scale,0.25,primary weakly informative prior,response is bounded and predictor is standardized
+beta_prior_sensitivity_scales,0.15;0.25;0.50,prior sensitivity,tests skeptical regular and broad priors
+intercept_prior_scale,0.25,frozen,weakly informative on turnover-difference scale
+control_prior_scale,0.20,frozen,regularizes nuisance coefficients
+process_sd_halfnormal_scale,0.25,frozen,regularizes residual ecological variation
+cell_sd_halfnormal_scale,0.15,frozen,regularizes cell heterogeneity
+rope_half_width,0.05,practical equivalence region,effects within plus or minus 0.05 treated as small
+meaningful_positive_threshold,0.10,practical effect threshold,positive effect of at least 0.10 turnover units per stress SD
+primary_probability_threshold,0.95,directional evidence rule,prevents post hoc significance switching

@@ -1,0 +1,13 @@
+{
+  "phase": "14B",
+  "script_version": "14B_v0.1.0_2026-07-18",
+  "created_utc": "2026-07-18T22:40:18.152075+00:00",
+  "status": "COMPLETED",
+  "iterations": 1000,
+  "seed": 20260718,
+  "eligible_pairs_from_14A": 15,
+  "turnover_rows_written": 15,
+  "primary_future_H3_response": "resampled_delta_simpson_C3_minus_N0_median",
+  "secondary_future_H3_response": "resampled_delta_jaccard_C3_minus_N0_median",
+  "interpretation": "A positive stress coefficient for the paired C3-minus-N0 response would support H3. This table alone contains temporal turnover, not environmental anomalies."
+}

@@ -1,0 +1,26 @@
+{
+  "phase": "14E1",
+  "script_version": "14E1_v0.3.0_2026-07-18",
+  "created_utc": "2026-07-18T23:34:54.548060+00:00",
+  "status": "COMPLETED",
+  "earth_engine_project": "baja-ballooning-ee-2026",
+  "assets": [
+    "ECMWF/ERA5_LAND/DAILY_AGGR",
+    "MODIS/061/MOD11A1",
+    "MODIS/061/MYD11A1",
+    "MODIS/061/MOD13Q1",
+    "UCSB-CHG/CHIRPS/DAILY",
+    "IDAHO_EPSCOR/TERRACLIMATE"
+  ],
+  "eligible_cells": 12,
+  "years": [
+    2001,
+    2025
+  ],
+  "expected_rows": 300,
+  "rows_written": 300,
+  "complete_extended_composite_rows": 300,
+  "terraclimate_latest_available_year_detected": 2024,
+  "guardrail": "Independent products and extremes improve stress measurement but do not increase biological replication.",
+  "output": "$PROJECT_ROOT/04_analysis_USE _THIS/14_recent_environmental_stress/14E_extended_stress_anomalies/14E1_cell_year_extended_stress_anomalies.csv"
+}

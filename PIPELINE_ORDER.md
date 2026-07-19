@@ -36,3 +36,29 @@
 | supplementary | 13G | Pre-specified robustness and sensitivity analyses. |
 | exploratory | 13H1–13H3 | Post-hoc Mulegé/ecoregion-junction follow-up. |
 <!-- PHASE13_PIPELINE_END -->
+
+<!-- PHASE14_15_START -->
+## Supplementary Phase 14 temporal H3 extension
+
+| Order | Step | Purpose |
+|---:|:---|:---|
+| 23 | 14A | Audit dated occurrence coverage and freeze eligible repeated cell-period comparisons. |
+| 24 | 14B | Estimate paired C3 and N0 temporal Jaccard and Simpson turnover with equal-event resampling. |
+| 25 | 14C0–14C1 | Prepare eligible cells and extract annual ERA5-Land and MODIS stress anomalies. |
+| 26 | 14C–14D | Join temporal stress changes and run the original exploratory H3 model. |
+| supplementary | 14E0–14F | Audit ECOSTRESS coverage and test prespecified extended heat, drought, water-balance, and vegetation sensitivities. |
+| supplementary | 14G–14H | Test sampling-continuity and C1/C2/C3 trait-threshold sensitivities. |
+| 27 | 14I | Synthesize all Phase 14 evidence without selecting the strongest-looking predictor. |
+
+## Supplementary Phase 15 Bayesian H3 extension
+
+| Order | Step | Purpose |
+|---:|:---|:---|
+| 28 | 15A | Freeze the original Phase 14 pair-level response, stress predictor, and observation uncertainty. |
+| 29 | 15B | Fit the primary robust Bayesian paired hierarchical measurement-error model. |
+| supplementary | 15C | Audit zero-centered prior and observation-uncertainty sensitivity. |
+| supplementary | 15D | Compare stress and null models by leave-one-cell-out predictive CRPS. |
+| supplementary | 15E | Run design-matched Monte Carlo power simulations with exact cell sign-flip inference. |
+| 30 | 15F | Apply frozen synthesis rules and manuscript guardrails. |
+| 31 | 15G | Generate the frozen spatial-temporal synthesis figure and editable-text SVG. |
+<!-- PHASE14_15_END -->

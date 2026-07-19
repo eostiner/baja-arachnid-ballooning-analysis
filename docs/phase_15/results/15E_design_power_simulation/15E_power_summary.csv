@@ -1,0 +1,2 @@
+n_pairs,n_cells,process_sd_used,cell_sd_used,simulations_per_effect,exact_sign_patterns,estimated_false_positive_rate_at_zero,minimum_grid_effect_reaching_80pct_power
+15,12,0.11522299477919884,0.11803513252397096,2000,4096,0.0285,0.3

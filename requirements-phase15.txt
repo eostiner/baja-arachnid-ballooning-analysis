@@ -1,0 +1,5 @@
+# Phase 15 uses the repository's existing NumPy, pandas, and Matplotlib stack.
+# No external Bayesian package is required.
+numpy>=2.0
+pandas>=2.2
+matplotlib>=3.9

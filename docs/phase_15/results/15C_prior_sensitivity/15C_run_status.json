@@ -1,0 +1,14 @@
+{
+  "phase": "15C",
+  "script_version": "15C_v0.1.0_2026-07-18",
+  "created_utc": "2026-07-18T23:54:17.730510+00:00",
+  "status": "PRIOR_AND_MEASUREMENT_ROBUST_POSITIVE_DIRECTION",
+  "minimum_probability_positive": 0.9421,
+  "minimum_prior_probability_positive": 0.9782,
+  "minimum_measurement_probability_positive": 0.9421,
+  "all_positive_medians": true,
+  "plot_outputs": [
+    "$PROJECT_ROOT/04_analysis_USE _THIS/15_bayesian_h3_evidence/15C_prior_sensitivity/15C_prior_sensitivity.png",
+    "$PROJECT_ROOT/04_analysis_USE _THIS/15_bayesian_h3_evidence/15C_prior_sensitivity/15C_prior_sensitivity.svg"
+  ]
+}

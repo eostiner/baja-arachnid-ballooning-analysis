@@ -1,0 +1,26 @@
+path	action	purpose
+scripts/supplementary/phase_14/phase14_common.py	retain	Shared temporal grid date trait and IO utilities
+scripts/supplementary/phase_14/phase14_model_utils.py	add	Guarded clustered regression FDR and leave-one-cell-out utilities
+scripts/supplementary/phase_14/14A_audit_temporal_coverage.py	retain	Temporal feasibility audit
+scripts/supplementary/phase_14/14B_build_temporal_community_turnover.py	retain	Equal-event paired C3/N0 temporal turnover
+scripts/supplementary/phase_14/14C0_prepare_eligible_cells.py	retain	Freeze eligible 25-km cell polygons
+scripts/supplementary/phase_14/14C1_extract_real_stress_earth_engine.py	retain	Original ERA5-Land and MODIS EVI annual stress extraction
+scripts/supplementary/phase_14/14C_join_cell_year_stress_anomalies.py	retain	Original stress join
+scripts/supplementary/phase_14/14D_test_recent_stress_tracking.py	retain	Original limited H3 model
+scripts/supplementary/phase_14/14E0_audit_ecostress_coverage.py	add	Audit whether Earth Engine ECOSTRESS intersects eligible Baja cells
+scripts/supplementary/phase_14/14E1_extract_extended_stress_earth_engine.py	add	Extract heat VPD rainfall water-balance and vegetation extremes from independent products
+scripts/supplementary/phase_14/14E2_join_extended_stress_summaries.py	add	Join period mean maximum burden and extreme-year stress summaries
+scripts/supplementary/phase_14/14F_test_extended_stress_sensitivities.py	add	Frozen expanded model multiverse FDR and leave-one-cell-out diagnostics
+scripts/supplementary/phase_14/14G_test_sampling_continuity.py	add	Dataset and calendar-quarter continuity sensitivities
+scripts/supplementary/phase_14/14H_test_trait_threshold_temporal_sensitivity.py	add	C1 C2 and C3 temporal trait-definition sensitivities
+scripts/supplementary/phase_14/14I_synthesize_h3_evidence.py	add	Non-cherry-picked synthesis and manuscript-level conclusion
+scripts/supplementary/phase_14/run_phase14.py	update	Run canonical workflow through 14I
+scripts/supplementary/phase_14/configs/phase_14_temporal_windows_frozen.csv	retain	Frozen five-year temporal windows
+scripts/supplementary/phase_14/configs/phase_14_stress_predictors_frozen.csv	retain	Original stress predictor definitions
+scripts/supplementary/phase_14/configs/phase_14_extended_predictors_frozen.csv	add	Frozen expanded annual stress predictor set
+scripts/supplementary/phase_14/configs/phase_14_extended_model_specs_frozen.csv	add	Frozen expanded model multiverse and control sensitivities
+docs/phase_14/README.md	update	Full scientific design data sources and interpretation guardrails
+INSTALL_AND_RUN.txt	update	Exact command from current real-data stopping point
+VALIDATION_REPORT.txt	update	Compilation and synthetic validation report
+PHASE14_PATCH_MANIFEST.tsv	update	Package manifest
+VERSION.txt	update	Version metadata

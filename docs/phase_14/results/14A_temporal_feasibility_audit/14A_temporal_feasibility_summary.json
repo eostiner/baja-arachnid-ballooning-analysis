@@ -1,0 +1,115 @@
+{
+  "phase": "14A",
+  "script_version": "14A_v0.1.0_2026-07-18",
+  "created_utc": "2026-07-18T22:40:17.355220+00:00",
+  "status": "CONDITIONAL_LIMITED_H3_TEST",
+  "recommendation": "Proceed only as an explicitly limited/exploratory H3 test, with equal-event resampling, dataset-continuity sensitivity analyses, and cautious geographic scope.",
+  "project_root": "$PROJECT_ROOT",
+  "inputs": {
+    "occurrence_file": "$PROJECT_ROOT/02_data_clean/05_final_qc_flags/05_biodiversity_final_records.tsv",
+    "occurrence_sha256": "45da915bd55938760a8653cffedc25f9b05fa063c4b5ad26365ac5791c316c86",
+    "trait_file": "$PROJECT_ROOT/ANALYSIS_READY_INPUTS/03_trait_tables/07_reviewed_genus_trait_lookup_normalized.csv",
+    "trait_sha256": "5650618e223db6983d89e56eaa7cbb370fac6f3470fb4f1fefbb47a54826fdd4",
+    "period_config": "$REPOSITORY_ROOT/scripts/supplementary/phase_14/configs/phase_14_temporal_windows_frozen.csv",
+    "period_config_sha256": "225f28341082435b4e1bebf06b7be1a7a28b8a4224ebac8c355e00759339e996"
+  },
+  "selected_fields": {
+    "genus": "analysis_genus",
+    "latitude": "decimalLatitude",
+    "longitude": "decimalLongitude",
+    "occurrence_id": "gbifID",
+    "event_date": "eventDate",
+    "year": "year",
+    "month": "month",
+    "day": "day",
+    "event_id": "eventID",
+    "dataset": "datasetKey"
+  },
+  "grid_validation": {
+    "status": "PASS",
+    "lookup_path": "$PROJECT_ROOT/02_data_clean/08_grid25km_incidence/10_common_grid25km_cell_lookup.csv",
+    "lookup_sha256": "59536f8f4648aad48d02ee8f4f0f0247ee87f3eadd3e9d5ad9181b3f75f7b34f",
+    "retained_lookup_cells": 205,
+    "computed_unique_cells": 183,
+    "cells_absent_from_retained_lookup": []
+  },
+  "date_audit": {
+    "valid_date_fraction_all_input_rows": 0.9846394538472479,
+    "minimum_valid_year": 1889,
+    "maximum_valid_year": 2026,
+    "precision_counts": {
+      "day": 6844,
+      "missing": 108,
+      "day_excel_serial": 19,
+      "month": 60
+    }
+  },
+  "primary_window": {
+    "start_year": 2001,
+    "end_year": 2025,
+    "periods": [
+      {
+        "period_id": "P2001_2005",
+        "start_year": 2001,
+        "end_year": 2005
+      },
+      {
+        "period_id": "P2006_2010",
+        "start_year": 2006,
+        "end_year": 2010
+      },
+      {
+        "period_id": "P2011_2015",
+        "start_year": 2011,
+        "end_year": 2015
+      },
+      {
+        "period_id": "P2016_2020",
+        "start_year": 2016,
+        "end_year": 2020
+      },
+      {
+        "period_id": "P2021_2025",
+        "start_year": 2021,
+        "end_year": 2025
+      }
+    ]
+  },
+  "eligibility_thresholds": {
+    "min_records_per_trait_cell_period": 5,
+    "min_unique_events_per_trait_cell_period": 3,
+    "min_genera_per_trait_cell_period": 3,
+    "direct_min_cells": 20,
+    "direct_min_adjacent_comparisons": 30,
+    "direct_min_latitude_bands": 4,
+    "conditional_min_cells": 10,
+    "conditional_min_adjacent_comparisons": 15,
+    "conditional_min_latitude_bands": 3
+  },
+  "counts": {
+    "input_rows": 7031,
+    "trait_N0": 3239,
+    "outside_primary_window": 1073,
+    "trait_C3": 2764,
+    "primary_window_records": 5027,
+    "trait_EXCLUDED_D4": 1028,
+    "missing_or_invalid_date": 108,
+    "excluded_nonprimary_trait": 823,
+    "analysis_records_written": 5027,
+    "eligible_cell_periods": 45,
+    "eligible_adjacent_temporal_pairs": 15,
+    "eligible_cells": 12,
+    "eligible_latitude_bands": [
+      "23-24N",
+      "24-26N",
+      "30-32N"
+    ]
+  },
+  "plot_outputs": [
+    "$PROJECT_ROOT/04_analysis_USE _THIS/14_recent_environmental_stress/14A_temporal_feasibility_audit/14A_records_by_year.png",
+    "$PROJECT_ROOT/04_analysis_USE _THIS/14_recent_environmental_stress/14A_temporal_feasibility_audit/14A_records_by_year.svg",
+    "$PROJECT_ROOT/04_analysis_USE _THIS/14_recent_environmental_stress/14A_temporal_feasibility_audit/14A_eligible_temporal_cells.png",
+    "$PROJECT_ROOT/04_analysis_USE _THIS/14_recent_environmental_stress/14A_temporal_feasibility_audit/14A_eligible_temporal_cells.svg"
+  ],
+  "important_interpretive_rule": "PASS indicates operational feasibility for an observational temporal test; it does not establish causation or guarantee statistical power. FAIL prohibits a peninsula-wide confirmatory H3 model under the frozen thresholds but does not prove the mechanism absent."
+}

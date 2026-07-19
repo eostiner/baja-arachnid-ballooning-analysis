@@ -1,0 +1,9 @@
+item,value
+overall_status,POSITIVE_BUT_UNCERTAIN_ACROSS_PRIMARY_MODELS
+models_with_numeric_estimates,12
+positive_estimates,11
+positive_intervals_excluding_zero,0
+manuscript_wording,"Both primary analyses pointed in the H3-predicted direction, but at least one uncertainty interval included zero. The expanded environmental data therefore preserve a plausible signal without demonstrating that it is real."
+scope_guardrail,Inference is restricted to repeated eligible cells and is not peninsula-wide.
+causal_guardrail,Observational turnover-stress association cannot demonstrate stress-caused redistribution.
+power_guardrail,Additional environmental products improve measurement but do not add biological replicates.

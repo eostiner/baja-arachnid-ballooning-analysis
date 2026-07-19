@@ -1,0 +1,46 @@
+{
+  "phase": "14G",
+  "script_version": "14G_v0.3.0_2026-07-18",
+  "created_utc": "2026-07-18T23:35:03.723633+00:00",
+  "status": "COMPLETED",
+  "original_eligible_pairs": 15,
+  "turnover_rows": 44,
+  "models": [
+    {
+      "scheme": "dataset_continuity_strict",
+      "status": "OK",
+      "control_set": "effort_time",
+      "n_pairs": 15,
+      "n_cells": 12,
+      "coefficient_per_predictor_sd": 0.18045653016880686,
+      "cluster_bootstrap_q025": -0.06858719218921164,
+      "cluster_bootstrap_q975": 0.3045119915265971,
+      "wild_cluster_p_two_sided": 0.06761044666829387,
+      "conclusion": "POSITIVE_BUT_UNCERTAIN"
+    },
+    {
+      "scheme": "quarter_continuity_strict",
+      "status": "OK",
+      "control_set": "effort_time",
+      "n_pairs": 15,
+      "n_cells": 12,
+      "coefficient_per_predictor_sd": 0.1631131560977024,
+      "cluster_bootstrap_q025": -0.0215406011016947,
+      "cluster_bootstrap_q975": 0.35902066161349705,
+      "wild_cluster_p_two_sided": 0.15108616060532096,
+      "conclusion": "POSITIVE_BUT_UNCERTAIN"
+    },
+    {
+      "scheme": "dataset_and_quarter_continuity_strict",
+      "status": "OK",
+      "control_set": "effort_time",
+      "n_pairs": 14,
+      "n_cells": 11,
+      "coefficient_per_predictor_sd": 0.14813543667324117,
+      "cluster_bootstrap_q025": -0.08042532310300109,
+      "cluster_bootstrap_q975": 0.30311056164734024,
+      "wild_cluster_p_two_sided": 0.09321620302586628,
+      "conclusion": "POSITIVE_BUT_UNCERTAIN"
+    }
+  ]
+}

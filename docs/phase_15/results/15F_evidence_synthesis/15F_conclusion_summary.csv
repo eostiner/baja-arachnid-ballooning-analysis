@@ -1,0 +1,16 @@
+item,value
+overall_status,POSITIVE_BUT_UNCERTAIN
+posterior_median,0.20042593534916586
+posterior_95pct_interval,"[0.02291980636790061, 0.35891023730467553]"
+posterior_probability_beta_gt_0,0.9891
+posterior_probability_beta_gt_0_10,0.8757
+posterior_probability_rope,0.0428
+minimum_probability_positive_across_priors,0.9782
+minimum_probability_positive_across_measurement_scales,0.9421
+minimum_probability_positive_across_all_sensitivities,0.9421
+loco_mean_crps_improvement,0.035160493111438776
+loco_exact_sign_flip_p,0.29296875
+minimum_tested_effect_reaching_80pct_power,0.3
+manuscript_wording,"The Bayesian estimate remained positive, but posterior uncertainty, prior sensitivity, or out-of-cell prediction did not provide decisive corroboration. H3 remains plausible but unconfirmed."
+scope_guardrail,Inference remains limited to 15 temporal comparisons in 12 repeatedly sampled cells.
+causal_guardrail,Observational temporal association cannot demonstrate stress-caused redistribution.

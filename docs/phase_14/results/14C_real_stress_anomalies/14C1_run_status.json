@@ -1,0 +1,27 @@
+{
+  "phase": "14C1",
+  "script_version": "14C1_v0.2.0_2026-07-18",
+  "created_utc": "2026-07-18T23:07:37.633030+00:00",
+  "status": "COMPLETED",
+  "earth_engine_project": "baja-ballooning-ee-2026",
+  "assets": [
+    "ECMWF/ERA5_LAND/DAILY_AGGR",
+    "MODIS/061/MOD13Q1"
+  ],
+  "eligible_cells": 12,
+  "years": [
+    2001,
+    2025
+  ],
+  "expected_cell_year_rows": 300,
+  "rows_written": 300,
+  "complete_stress_composite_rows": 300,
+  "baseline": [
+    2001,
+    2020
+  ],
+  "positive_values_mean": "more environmental stress",
+  "hot_day_threshold_c": 35.0,
+  "output": "$PROJECT_ROOT/04_analysis_USE _THIS/14_recent_environmental_stress/14C_real_stress_anomalies/14C1_cell_year_real_stress_anomalies.csv",
+  "important_guardrail": "These are temporally resolved observational anomalies, not experimental treatment assignments."
+}

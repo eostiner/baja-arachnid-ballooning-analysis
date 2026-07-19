@@ -1,0 +1,46 @@
+{
+  "phase": "14H",
+  "script_version": "14H_v0.3.0_2026-07-18",
+  "created_utc": "2026-07-18T23:35:06.048719+00:00",
+  "status": "COMPLETED",
+  "thresholds": [
+    "C1_D1_only",
+    "C2_D1_D2",
+    "C3_D1_D3_primary"
+  ],
+  "models": [
+    {
+      "threshold": "C1_D1_only",
+      "status": "OK",
+      "n_pairs": 12,
+      "n_cells": 10,
+      "coefficient_per_predictor_sd": 0.20981542876270023,
+      "cluster_bootstrap_q025": -0.15133221324074808,
+      "cluster_bootstrap_q975": 0.4202410317282562,
+      "wild_cluster_p_two_sided": 0.2780487804878049,
+      "conclusion": "POSITIVE_BUT_UNCERTAIN"
+    },
+    {
+      "threshold": "C2_D1_D2",
+      "status": "OK",
+      "n_pairs": 15,
+      "n_cells": 12,
+      "coefficient_per_predictor_sd": 0.18201208603838664,
+      "cluster_bootstrap_q025": -0.08016866220383731,
+      "cluster_bootstrap_q975": 0.321902080712494,
+      "wild_cluster_p_two_sided": 0.16426653649011472,
+      "conclusion": "POSITIVE_BUT_UNCERTAIN"
+    },
+    {
+      "threshold": "C3_D1_D3_primary",
+      "status": "OK",
+      "n_pairs": 15,
+      "n_cells": 12,
+      "coefficient_per_predictor_sd": 0.17671139814055387,
+      "cluster_bootstrap_q025": -0.049832196098900314,
+      "cluster_bootstrap_q975": 0.32214522804841117,
+      "wild_cluster_p_two_sided": 0.13351232609226263,
+      "conclusion": "POSITIVE_BUT_UNCERTAIN"
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "release": "1.0.6",
+  "release": "1.1.0",
   "built": "2026-07-18",
   "canonical_scripts_only": true,
   "primary_trait_definition": "C3 = D1 + D2 + D3 versus fixed N0; D4 excluded",
@@ -33,7 +33,9 @@
     "R_execution_in_build_runtime": "NOT AVAILABLE; GitHub Actions parses all R sources",
     "r_balanced_delimiter_check": "PASS (15 R scripts)",
     "pipeline_dry_run": "PASS",
-    "phase_13_13A_through_13H3": "PASS"
+    "phase_13_13A_through_13H3": "PASS",
+    "phase_14_14A_through_14I": "PASS; selected real-data outputs validated",
+    "phase_15_15A_through_15G": "PASS; frozen empirical values and editable SVG audit validated"
   },
   "python_unit_tests": 9,
   "reference_map_visual_qc": "docs/MAP_QC.md",
@@ -44,5 +46,31 @@
     "exploratory_local_steps": "13H1-13H3",
     "primary_conclusion": "Lower C3 Simpson replacement was not explained by stronger contemporary-environment tracking or weaker historical-boundary structure.",
     "mulege_conclusion": "No block-bootstrap-supported discrete Mulege bump or general ecoregion-junction effect."
+  },
+  "phase_14": {
+    "status": "complete_exploratory",
+    "temporal_comparisons": 15,
+    "repeated_cells": 12,
+    "synthesis": "POSITIVE_BUT_UNCERTAIN_ACROSS_PRIMARY_MODELS",
+    "positive_estimates": 11,
+    "models_with_numeric_estimates": 12,
+    "positive_95pct_intervals_excluding_zero": 0,
+    "scope": "Repeated eligible cells only; not peninsula-wide or causal."
+  },
+  "phase_15": {
+    "status": "complete_exploratory",
+    "synthesis": "POSITIVE_BUT_UNCERTAIN",
+    "posterior_median_beta": 0.200426,
+    "posterior_95pct_credible_interval": [
+      0.02292,
+      0.35891
+    ],
+    "posterior_probability_beta_gt_0": 0.9891,
+    "posterior_probability_beta_gt_0_10": 0.8757,
+    "loco_crps_improvement": 0.03516,
+    "loco_exact_sign_flip_p": 0.292969,
+    "interpretation": "H3 is plausible but unconfirmed; held-out prediction is inconclusive.",
+    "figure_script": "scripts/supplementary/phase_15/15G_make_spatial_temporal_dispersal_figure.py",
+    "frozen_spatial_sha256": "667aba35ce27efe11da518b7cf2f4264e14de2782dddfc57a1a017541110f587"
   }
 }

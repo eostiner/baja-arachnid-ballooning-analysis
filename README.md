@@ -1,6 +1,6 @@
 # Baja California arachnid dispersal analysis
 
-**Release 1.0.6 — final post-rerun publication package**
+**Release 1.1.0 — temporal stress and Bayesian H3 extension**
 
 Publication-ready code release for the retained Baja California arachnid ballooning workflow. The repository starts with the final quality-controlled occurrence tables and reviewed genus trait table, then rebuilds the 25-km incidence grid, equal-cell richness and turnover analyses, biogeographic tests, environmental screening, Spatial+ analysis, and final maps.
 
@@ -110,3 +110,27 @@ python scripts/supplementary/phase_13/run_phase13.py \
   --project-root /path/to/Baja_Ballooning_Pipeline
 ```
 <!-- PHASE13_END -->
+
+<!-- PHASE14_15_START -->
+## Phase 14 — recent environmental-stress tracking
+
+Phase 14 reconstructs temporally repeated C3 and fixed-N0 assemblages within retained 25-km cells and tests whether changes in recent heat, atmospheric dryness, moisture, vegetation, and water-balance stress correspond more strongly to C3 temporal replacement. The empirical analysis contains **15 adjacent-period comparisons across 12 cells**, so it is exploratory and not peninsula-wide. Across the frozen Phase 14 synthesis, 11 of 12 estimates were positive, but none of the frequentist 95% intervals excluded zero.
+
+```bash
+python scripts/supplementary/phase_14/run_phase14.py \
+  --project-root /path/to/Baja_Ballooning_Pipeline
+```
+
+Live Earth Engine extraction requires `pip install -r requirements-phase14.txt`, Earth Engine authentication, and an authorized Google Cloud project. Compact results and provenance are stored in [`docs/phase_14/`](docs/phase_14/).
+
+## Phase 15 — Bayesian H3 estimation and predictive validation
+
+Phase 15 propagates pair-level turnover uncertainty in a robust paired hierarchical model, audits prior and measurement-error sensitivity, evaluates leave-one-cell-out prediction, and quantifies design-matched power. The frozen primary result was `beta = 0.200426`, 95% credible interval `[0.022920, 0.358910]`, with `Pr(beta > 0 | data) = 0.989100`. Held-out prediction was directionally favorable but inconclusive (`exact sign-flip p = 0.292969`), so the official synthesis remains **positive but uncertain**: H3 is plausible but unconfirmed.
+
+```bash
+python scripts/supplementary/phase_15/run_phase15.py \
+  --project-root /path/to/Baja_Ballooning_Pipeline
+```
+
+Step 15G produces the final spatial-temporal synthesis figure using the original frozen 5,000-resample spatial result and the Phase 15 posterior estimate. Its SVG preserves labels as editable text objects. Spatial and temporal results answer complementary questions and must not be described as one demonstrated causal process. See [`docs/phase_15/`](docs/phase_15/).
+<!-- PHASE14_15_END -->

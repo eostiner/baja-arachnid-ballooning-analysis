@@ -1,0 +1,38 @@
+BAJA PHASE 14 v0.3.0 VALIDATION REPORT
+======================================
+Date: 2026-07-18
+
+PASSED
+------
+1. Python compilation passed for every Phase 14 script and shared module.
+2. Existing 14A-14D scripts were retained and compile successfully.
+3. A synthetic project with 12 cells and 15 adjacent temporal comparisons was built.
+4. On the synthetic project:
+   - 14B produced all 15 paired turnover rows.
+   - 14E2 joined all 15 rows with all extended stress summaries.
+   - 14F completed the frozen 20-model multiverse, FDR calculations,
+     leave-one-cell-out diagnostics, PNG and SVG figures.
+   - 14G completed dataset, quarter, and dataset+quarter continuity restrictions.
+   - 14H completed C1/C2/C3 coverage, turnover, and guarded model attempts.
+   - 14I produced the evidence table, conclusion summary, README, PNG and SVG figure.
+5. The runner dry-run resolves steps 14E0 through 14I in canonical order.
+
+NOT EXECUTED IN THIS ENVIRONMENT
+--------------------------------
+1. Live Earth Engine extraction in 14E0 and 14E1, because the user's authenticated
+   Google account and registered project are available only on the user's Mac.
+2. Real-data 14E0-14I results, because the real 14A-14D output directory is local
+   to $PROJECT_ROOT.
+
+LIVE-INTEGRATION EXPECTATIONS
+-----------------------------
+- ERA5-Land, MODIS LST, MODIS EVI, CHIRPS, and TerraClimate are public Earth Engine assets.
+- TerraClimate may lack 2025 at run time; 14E1 detects its latest year and 14E2 permits
+  four available years in the 2021-2025 period under the frozen >=3-year rule.
+- ECOSTRESS is audit-only and is not admitted into models unless actual Baja coverage passes.
+
+SCIENTIFIC GUARDRAIL
+--------------------
+The expanded package improves environmental measurement and bias diagnostics but does
+not increase the number of repeated biological observations. All conclusions remain
+exploratory, restricted to eligible cells, and non-causal.

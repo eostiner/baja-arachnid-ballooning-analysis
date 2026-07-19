@@ -1,0 +1,6 @@
+path	action	description
+scripts/supplementary/phase_15/15G_make_spatial_temporal_dispersal_figure.py	replace	Phase 15G v0.5 plotting script with editable single-object SVG text
+docs/phase_15/15G_FIGURE_DESIGN_v0.5.md	add	Editable SVG text design and audit notes
+INSTALL_AND_RUN.txt	replace	Installation and run instructions
+VERSION.txt	replace	Patch version and change summary
+requirements-phase15G.txt	retain	Python dependencies

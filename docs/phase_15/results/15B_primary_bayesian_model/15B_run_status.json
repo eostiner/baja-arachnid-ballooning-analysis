@@ -1,0 +1,52 @@
+{
+  "phase": "15B",
+  "script_version": "15B_v0.1.0_2026-07-18",
+  "created_utc": "2026-07-18T23:54:03.848292+00:00",
+  "status": "COMPLETED",
+  "result": {
+    "model": "primary_original_composite_bayesian_measurement_error",
+    "n_pairs": 15,
+    "n_cells": 12,
+    "stress_beta_median": 0.20042593534916586,
+    "stress_beta_q025": 0.02291980636790061,
+    "stress_beta_q975": 0.35891023730467553,
+    "stress_beta_q055": 0.0579910417212454,
+    "stress_beta_q945": 0.328071882267343,
+    "posterior_probability_beta_gt_0": 0.9891,
+    "posterior_probability_beta_gt_0_10": 0.8757,
+    "posterior_probability_abs_beta_le_0_05": 0.0428,
+    "prior_scale_stress_beta": 0.25,
+    "student_t_df": 4.0,
+    "max_rhat": 1.0115443754672009,
+    "minimum_ess_bulk_approx": 85.45456922783634,
+    "stress_beta_rhat": 1.0044965621509976,
+    "stress_beta_ess_bulk_approx": 107.2425281384332,
+    "diagnostics_pass": 0,
+    "posterior_predictive_90pct_coverage": 1.0,
+    "posterior_predictive_rmse": 0.17854532601692463,
+    "posterior_predictive_fraction_outside_response_bounds": 0.01951111111111111,
+    "classification": "POSITIVE_BUT_UNCERTAIN"
+  },
+  "scaling": {
+    "stress_mean": 0.06529307816615755,
+    "stress_sd": 0.31947065305307765,
+    "log_events_mean": 2.361415511443536,
+    "log_events_sd": 0.8284769949729447,
+    "midpoint_mean": 2019.5,
+    "midpoint_sd": 2.0701966780270626
+  },
+  "parameter_names": [
+    "intercept",
+    "stress_beta",
+    "log_events_beta",
+    "midpoint_beta"
+  ],
+  "plot_outputs": [
+    "$PROJECT_ROOT/04_analysis_USE _THIS/15_bayesian_h3_evidence/15B_primary_bayesian_model/15B_primary_stress_posterior.png",
+    "$PROJECT_ROOT/04_analysis_USE _THIS/15_bayesian_h3_evidence/15B_primary_bayesian_model/15B_primary_stress_posterior.svg"
+  ],
+  "chains": 4,
+  "warmup": 3000,
+  "draws_per_chain": 5000,
+  "seed": 20260718
+}

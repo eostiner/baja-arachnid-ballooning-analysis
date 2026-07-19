@@ -1,0 +1,43 @@
+{
+  "phase": "14F",
+  "script_version": "14F_v0.3.0_2026-07-18",
+  "created_utc": "2026-07-18T23:35:01.371240+00:00",
+  "status": "COMPLETED_EXPLORATORY_MULTIVERSE",
+  "models_specified": 20,
+  "models_fit": 20,
+  "primary_model": {
+    "model_id": "E_PRIMARY_COMPOSITE_MEAN",
+    "tier": "primary",
+    "response": "resampled_delta_simpson_C3_minus_N0_median",
+    "predictor": "delta_mean_extended_stress_composite_z_period2_minus_period1",
+    "family": "composite",
+    "summary_mode": "mean",
+    "control_set": "full",
+    "direction": "positive",
+    "description": "Primary expanded H3 test using independent and extreme-event stress domains",
+    "n_pairs": 15,
+    "n_cells": 12,
+    "status": "OK",
+    "coefficient_per_predictor_sd": 0.05076824459643417,
+    "cluster_bootstrap_q025": -0.5364286898990382,
+    "cluster_bootstrap_q975": 0.2564370955520928,
+    "wild_cluster_p_two_sided": 0.5923846717110081,
+    "wild_cluster_method": "exact_wild_cluster_sign_flip_4096_patterns",
+    "r_squared_descriptive": 0.5629284297036998,
+    "controls_retained": "log_common_events_1SD;transition_midpoint_1SD;latitude_band_24-26N_vs_23-24N;latitude_band_30-32N_vs_23-24N",
+    "controls_omitted": "",
+    "bh_fdr_q_across_nonprimary_models": "",
+    "conclusion": "POSITIVE_BUT_UNCERTAIN",
+    "loco_valid_n": 12,
+    "loco_positive_fraction": 0.9166666666666666,
+    "loco_min_coefficient": -0.055256575699125156,
+    "loco_max_coefficient": 0.10155949171738445
+  },
+  "plot_outputs": [
+    "$PROJECT_ROOT/04_analysis_USE _THIS/14_recent_environmental_stress/14F_extended_stress_sensitivity/14F_extended_stress_forest.png",
+    "$PROJECT_ROOT/04_analysis_USE _THIS/14_recent_environmental_stress/14F_extended_stress_sensitivity/14F_extended_stress_forest.svg",
+    "$PROJECT_ROOT/04_analysis_USE _THIS/14_recent_environmental_stress/14F_extended_stress_sensitivity/14F_primary_leave_one_cell_out.png",
+    "$PROJECT_ROOT/04_analysis_USE _THIS/14_recent_environmental_stress/14F_extended_stress_sensitivity/14F_primary_leave_one_cell_out.svg"
+  ],
+  "guardrail": "Expanded predictors improve measurement and robustness assessment but do not create new biological replicates."
+}

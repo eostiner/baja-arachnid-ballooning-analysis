@@ -1,0 +1,11 @@
+item,value
+status,PASS
+source_file,$PROJECT_ROOT/04_analysis_USE _THIS/14_recent_environmental_stress/14C_temporal_stress_join/14C_H3_model_input_complete_cases.csv
+eligible_pairs,15
+eligible_cells,12
+observation_sd_floor,0.02295960556160943
+pairs_using_sd_floor,0
+primary_response,resampled_delta_simpson_C3_minus_N0_median
+primary_predictor,delta_stress_composite_z_period2_minus_period1
+measurement_caveat,Resampling quantiles approximate pair-level observation dispersion; they are not treated as independent biological replicates.
+selection_guardrail,The original Phase 14 primary composite remains primary; extended predictors are not substituted post hoc.

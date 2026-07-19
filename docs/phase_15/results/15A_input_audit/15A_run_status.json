@@ -1,0 +1,11 @@
+{
+  "phase": "15A",
+  "script_version": "15A_v0.1.0_2026-07-18",
+  "created_utc": "2026-07-18T23:53:57.291909+00:00",
+  "status": "PASS",
+  "pairs": 15,
+  "cells": 12,
+  "observation_sd_floor": 0.02295960556160943,
+  "pairs_using_floor": 0,
+  "source": "$PROJECT_ROOT/04_analysis_USE _THIS/14_recent_environmental_stress/14C_temporal_stress_join/14C_H3_model_input_complete_cases.csv"
+}

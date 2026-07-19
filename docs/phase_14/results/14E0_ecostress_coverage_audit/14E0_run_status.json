@@ -1,0 +1,14 @@
+{
+  "phase": "14E0",
+  "script_version": "14E0_v0.3.0_2026-07-18",
+  "created_utc": "2026-07-18T23:24:48.982204+00:00",
+  "status": "COVERAGE_PRESENT_REQUIRES_SEPARATE_QUALITY_AND_TEMPORAL_AUDIT",
+  "asset": "NASA/ECOSTRESS/L2T_LSTE/V2",
+  "date_range": [
+    "2018-07-09",
+    "2026-01-01"
+  ],
+  "eligible_cells": 12,
+  "intersecting_scenes_total": 6362,
+  "decision": "Do not add ECOSTRESS to H3 unless coverage is spatially and temporally adequate for repeated cell-period comparisons. A scene intersection alone is not sufficient."
+}

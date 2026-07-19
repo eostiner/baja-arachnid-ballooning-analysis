@@ -1,0 +1,4 @@
+scheme,status,control_set,n_pairs,n_cells,coefficient_per_predictor_sd,cluster_bootstrap_q025,cluster_bootstrap_q975,wild_cluster_p_two_sided,conclusion
+dataset_continuity_strict,OK,effort_time,15,12,0.18045653016880686,-0.06858719218921164,0.3045119915265971,0.06761044666829387,POSITIVE_BUT_UNCERTAIN
+quarter_continuity_strict,OK,effort_time,15,12,0.1631131560977024,-0.0215406011016947,0.35902066161349705,0.15108616060532096,POSITIVE_BUT_UNCERTAIN
+dataset_and_quarter_continuity_strict,OK,effort_time,14,11,0.14813543667324117,-0.08042532310300109,0.30311056164734024,0.09321620302586628,POSITIVE_BUT_UNCERTAIN

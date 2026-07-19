@@ -1,2 +1,12 @@
 __pycache__/
 *.pyc
+
+# Local environments, caches, and authentication
+.venv/
+venv/
+**/__pycache__/
+*.py[cod]
+.DS_Store
+.earthengine/
+credentials.json
+application_default_credentials.json

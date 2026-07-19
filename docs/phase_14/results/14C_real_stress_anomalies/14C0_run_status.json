@@ -1,0 +1,11 @@
+{
+  "phase": "14C0",
+  "script_version": "14C0_v0.2.0_2026-07-18",
+  "created_utc": "2026-07-18T22:52:51.811107+00:00",
+  "status": "COMPLETED",
+  "eligible_cells": 12,
+  "eligible_temporal_pairs": 15,
+  "csv": "$PROJECT_ROOT/04_analysis_USE _THIS/14_recent_environmental_stress/14C_real_stress_anomalies/14C0_eligible_temporal_cells.csv",
+  "geojson": "$PROJECT_ROOT/04_analysis_USE _THIS/14_recent_environmental_stress/14C_real_stress_anomalies/14C0_eligible_temporal_cells.geojson",
+  "grid_geometry": "Exact 25-km square reconstructed from retained spherical LAEA row/column identifier."
+}

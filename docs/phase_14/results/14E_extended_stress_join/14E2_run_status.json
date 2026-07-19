@@ -1,0 +1,33 @@
+{
+  "phase": "14E2",
+  "script_version": "14E2_v0.3.0_2026-07-18",
+  "created_utc": "2026-07-18T23:34:55.071810+00:00",
+  "status": "COMPLETED",
+  "turnover_rows": 15,
+  "primary_complete_rows": 15,
+  "predictors": [
+    "extended_stress_composite_z",
+    "thermal_extreme_stress_z",
+    "air_heat_extreme_stress_z",
+    "surface_heat_stress_z",
+    "vpd_extreme_stress_z",
+    "moisture_extreme_stress_z",
+    "rainfall_drought_stress_z",
+    "soil_water_stress_z",
+    "water_balance_stress_z",
+    "vegetation_extreme_stress_z",
+    "modis_lst_day_p95_c_stress_z",
+    "chirps_annual_precipitation_mm_stress_z",
+    "terraclimate_climate_water_deficit_mm_stress_z",
+    "modis_evi_p10_stress_z"
+  ],
+  "summary_modes": [
+    "mean",
+    "max",
+    "burden",
+    "extreme_fraction"
+  ],
+  "primary_predictor": "delta_mean_extended_stress_composite_z_period2_minus_period1",
+  "minimum_years_per_period": 3,
+  "guardrail": "Alternative summaries are prespecified sensitivities and must not be cherry-picked."
+}

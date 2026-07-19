@@ -1,0 +1,62 @@
+PHASE 15 VALIDATION REPORT
+==========================
+Version: 0.1.0
+Date: 2026-07-18
+
+STATIC VALIDATION
+-----------------
+- All Python files compile successfully with Python compileall.
+- The package has no PyMC, Stan, R, or Earth Engine dependency.
+- The primary sampler uses NumPy and a transparent Metropolis-within-Gibbs design
+  with slice updates for variance parameters.
+
+END-TO-END SYNTHETIC RECOVERY TEST
+----------------------------------
+A 15-pair, 12-cell synthetic dataset was generated with a true standardized stress
+effect of +0.18, cell heterogeneity, Student-t residual variation, and heterogeneous
+pair-level observation uncertainty.
+
+Full primary test (4 chains; 2,000 warmup; 3,000 retained draws per chain):
+- posterior median stress effect: +0.154837
+- 95% credible interval: [+0.052140, +0.256143]
+- posterior P(beta > 0): 0.997083
+- stress-effect split R-hat: 1.0011
+- stress-effect approximate bulk ESS: 737.2
+
+The known positive signal was recovered without a positive prior.
+
+SENSITIVITY VALIDATION
+----------------------
+- Skeptical, regular, and broad zero-centered priors all retained a positive median.
+- Halving and doubling the approximate observation-dispersion scale retained a
+  positive median.
+- Minimum P(beta > 0) across frozen prior and measurement sensitivities: 0.990667.
+
+PREDICTIVE VALIDATION
+---------------------
+A reduced-iteration end-to-end leave-one-cell-out test completed for all 12 cells:
+- stress model lower CRPS in 10 of 12 held-out cells
+- mean CRPS improvement (null minus stress): +0.056845
+- exact cell sign-flip p: 0.007324
+
+The full default LOCO settings are intentionally more computationally intensive and
+may take several minutes on the user's Mac. The reduced validation run tests program
+correctness, not manuscript inference.
+
+POWER-CALIBRATION VALIDATION
+----------------------------
+With 250 simulations per effect and all 4,096 exact cell sign patterns:
+- estimated false-positive rate at beta = 0: 0.040
+- first tested effect reaching at least 80% power: +0.20
+
+EDGE-CASE VALIDATION
+--------------------
+A degenerate synthetic dataset with nearly zero response variance produced poor
+variance-component mixing. The Phase 15 diagnostic gate correctly failed rather than
+issuing a strong biological conclusion. This is intended behavior.
+
+REAL-DATA LIMITATION
+--------------------
+The real Phase 14 pair-level files are on the user's local project and were not
+available in this runtime. Therefore no real Phase 15 biological result is claimed in
+this package. The local run must determine the manuscript conclusion.

@@ -1,0 +1,9 @@
+Baja Phase 15 Figure 15G v0.5.0
+2026-07-19
+
+Changes from v0.4.0:
+- SVG fonts are preserved as editable text (`svg.fonttype = none`).
+- Each Matplotlib text artist is retained as one SVG text object.
+- Multiline strings are collapsed to a single `<text>` element with `<tspan>` lines.
+- Each SVG text group receives a descriptive Inkscape label.
+- A required `15G_svg_text_audit.json` verifies that no text was converted to glyph paths.

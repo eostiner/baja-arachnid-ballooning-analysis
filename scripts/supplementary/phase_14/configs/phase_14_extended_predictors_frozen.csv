@@ -1,0 +1,15 @@
+predictor,core,family,source,description
+extended_stress_composite_z,1,composite,all_extended,Mean of thermal VPD moisture and vegetation stress domains with positive values meaning more stress
+thermal_extreme_stress_z,0,thermal,ERA5-Land+MODIS LST,Combined air and land-surface heat extremes
+air_heat_extreme_stress_z,0,thermal_air,ERA5-Land,Mean air temperature and hot-day extremes
+surface_heat_stress_z,0,thermal_surface,MODIS Terra+Aqua LST,Clear-sky daytime and nighttime land-surface heat
+vpd_extreme_stress_z,0,atmospheric_drought,ERA5-Land,Mean and upper-tail vapor-pressure deficit
+moisture_extreme_stress_z,0,moisture_composite,ERA5-Land+CHIRPS+TerraClimate,Rainfall soil-water and climatic-water-balance stress
+rainfall_drought_stress_z,0,rainfall_drought,CHIRPS,Precipitation deficit dry-day frequency and driest-month precipitation
+soil_water_stress_z,0,soil_water,ERA5-Land,Upper-root-zone soil-water deficit
+water_balance_stress_z,0,water_balance,TerraClimate,Climate water deficit PDSI soil moisture and AET to PET ratio
+vegetation_extreme_stress_z,0,vegetation,MODIS EVI,Mean and lower-tail EVI deficit
+modis_lst_day_p95_c_stress_z,0,independent_surface_heat,MODIS Terra+Aqua LST,Within-cell anomaly of annual 95th percentile daytime land-surface temperature
+chirps_annual_precipitation_mm_stress_z,0,independent_rainfall,CHIRPS,Within-cell annual precipitation deficit anomaly
+terraclimate_climate_water_deficit_mm_stress_z,0,independent_water_balance,TerraClimate,Within-cell annual climate-water-deficit anomaly
+modis_evi_p10_stress_z,0,independent_vegetation,MODIS EVI,Within-cell anomaly of low-end annual EVI

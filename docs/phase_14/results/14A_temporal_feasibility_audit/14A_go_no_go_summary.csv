@@ -1,0 +1,7 @@
+criterion,value,threshold,pass
+primary_window,2001-2025,frozen config,1
+valid_primary_C3_N0_records,5027,>0,1
+eligible_temporal_pairs,15,30,0
+eligible_cells,12,20,0
+eligible_latitude_bands,3,4,0
+overall_status,CONDITIONAL_LIMITED_H3_TEST,operational feasibility rule,0

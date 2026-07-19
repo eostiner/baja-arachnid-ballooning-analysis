@@ -1,0 +1,6 @@
+item,value
+phase14A_scope,CONDITIONAL_LIMITED_H3_TEST
+primary_result,POSITIVE_BUT_UNCERTAIN
+manuscript_interpretation,"The estimated relationship was in the H3-predicted direction, but uncertainty included no effect. The limited opportunistic data therefore do not demonstrate recent stress tracking."
+causal_guardrail,Association cannot establish that recent stress caused redistribution.
+geographic_guardrail,Inference is restricted to the eligible repeated cells and represented latitude bands.
