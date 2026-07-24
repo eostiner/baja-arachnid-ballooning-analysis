@@ -1,0 +1,11 @@
+latitude_band,latitude_band_label,trait_class,trait_label,metric,n,mean,median,sd,p025,p975
+23-24N,23–24°N,ballooning,Ballooning-capable,richness,5000,56.0,56.0,0.0,56.0,56.0
+23-24N,23–24°N,non_ballooning,Non-ballooning,richness,5000,70.0,70.0,0.0,70.0,70.0
+24-26N,24–26°N,ballooning,Ballooning-capable,richness,5000,28.6832,35.0,9.741776953084111,13.0,40.0
+24-26N,24–26°N,non_ballooning,Non-ballooning,richness,5000,47.6416,49.0,9.999157267950826,29.0,62.0
+26-28N,26–28°N,ballooning,Ballooning-capable,richness,5000,17.0952,17.0,3.503853929385712,10.0,23.0
+26-28N,26–28°N,non_ballooning,Non-ballooning,richness,5000,27.0206,27.0,3.1664145142692917,21.0,33.0
+28-30N,28–30°N,ballooning,Ballooning-capable,richness,5000,11.4766,12.0,1.619746015716997,8.0,14.0
+28-30N,28–30°N,non_ballooning,Non-ballooning,richness,5000,32.174,32.0,4.901400692225555,22.97500000000001,41.0
+30-32N,30–32°N,ballooning,Ballooning-capable,richness,5000,37.6654,36.0,8.93493197746286,23.0,52.0
+30-32N,30–32°N,non_ballooning,Non-ballooning,richness,5000,39.3494,39.0,7.148170318884516,25.0,52.0

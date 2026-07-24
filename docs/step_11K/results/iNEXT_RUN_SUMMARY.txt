@@ -1,0 +1,5 @@
+iNEXT stage completed.
+nboot=200
+seed=20260723
+shared_coverage_target=0.7279
+Important: these Hill-diversity outputs are coverage-standardized diagnostics and are not equivalent to the Baselga replacement-nestedness partition.

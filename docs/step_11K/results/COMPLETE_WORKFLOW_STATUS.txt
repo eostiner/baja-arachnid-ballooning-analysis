@@ -1,0 +1,7 @@
+COMPLETE
+core_beta_diversity=present
+publication_figures=completed
+iNEXT_hill_diversity=completed
+publication_text=completed
+nboot=200
+seed=20260723

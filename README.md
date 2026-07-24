@@ -134,3 +134,31 @@ python scripts/supplementary/phase_15/run_phase15.py \
 
 Step 15G produces the final spatial-temporal synthesis figure using the original frozen 5,000-resample spatial result and the Phase 15 posterior estimate. Its SVG preserves labels as editable text objects. Spatial and temporal results answer complementary questions and must not be described as one demonstrated causal process. See [`docs/phase_15/`](docs/phase_15/).
 <!-- PHASE14_15_END -->
+
+
+<!-- STEP11K_11N_UPDATE_START -->
+## Step 11K — publication nestedness/replacement QC and iNEXT
+
+Step 11K reruns the adjacent latitude-band trait comparison with 5,000 paired
+equal-cell iterations, partitions total Jaccard dissimilarity into Baselga
+replacement and nestedness-resultant components, and adds coverage-standardized
+iNEXT Hill diversity at q = 0, 1, and 2. Hill diversity is reported separately
+from replacement–nestedness because the measures are not equivalent. Compact
+outputs and provenance are archived under [`docs/step_11K/`](docs/step_11K/).
+
+```bash
+bash scripts/supplementary/step_11K/run_step11K.sh /path/to/Baja_Ballooning_Pipeline
+```
+
+## Step 11N — diversity map with adjacent-boundary inset
+
+Step 11N produces the manuscript figure with within-band q = 0 richness, q = 1
+common-genera diversity, and q = 2 dominant-genera diversity in Panel A, and
+adjacent-boundary Jaccard replacement and nestedness-resultant contrasts in
+Panel B. Boundary-level Hill beta q results remain supplementary.
+
+```bash
+python scripts/mapping/step_11N/11N_build_map_with_boundary_effect_inset_v8.py \
+  --project-root /path/to/Baja_Ballooning_Pipeline --dpi 400
+```
+<!-- STEP11K_11N_UPDATE_END -->

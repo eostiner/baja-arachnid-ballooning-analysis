@@ -62,3 +62,13 @@
 | 30 | 15F | Apply frozen synthesis rules and manuscript guardrails. |
 | 31 | 15G | Generate the frozen spatial-temporal synthesis figure and editable-text SVG. |
 <!-- PHASE14_15_END -->
+
+
+<!-- STEP11K_11N_UPDATE_START -->
+## Publication diversity and turnover extension
+
+| Order | Step | Purpose |
+|---:|:---|:---|
+| 11a | 11K | Paired equal-cell Jaccard/Baselga QC plus coverage-standardized iNEXT Hill diversity at q = 0, 1, and 2. |
+| 11b | 11N | Main map with within-band Hill diversity and inset adjacent-boundary replacement/nestedness effects. |
+<!-- STEP11K_11N_UPDATE_END -->

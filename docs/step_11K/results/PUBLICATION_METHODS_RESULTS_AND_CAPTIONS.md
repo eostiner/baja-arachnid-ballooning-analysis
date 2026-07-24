@@ -1,0 +1,25 @@
+# Baja Ballooning publication text generated from the QC run
+
+### Methods
+
+To compare the structure of compositional dissimilarity between ballooning-capable and non-ballooning arachnid assemblages, genus incidences were analyzed across five latitude bands using a frozen genus-by-25-km-cell incidence matrix containing 267 genera in 205 occupied cells. Sampling effort was standardized by selecting 22 occupied cells without replacement from every latitude band during each of 5,000 Monte Carlo iterations. The same cell draw was used for both trait groups within each iteration, yielding paired comparisons. Ballooning-capable genera comprised evidence classes D1–D3 (87 genera), non-ballooning genera comprised N0 (140 genera), and D4 (40 genera) was excluded from the primary comparison. Genus incidences were pooled within each selected latitude-band sample. Total Jaccard dissimilarity was partitioned following Baselga’s framework into replacement and nestedness-resultant components. The complementary Sørensen-family partition was also calculated as Simpson replacement and Sørensen nestedness-resultant dissimilarity. Trait contrasts were calculated within each iteration as ballooning-capable minus non-ballooning. Values are reported as medians and 2.5th–97.5th percentile paired-resampling intervals. These intervals quantify uncertainty associated with equal-cell resampling and are not parametric confidence intervals.
+
+### Results
+
+Total Jaccard dissimilarity did not differ consistently between ballooning-capable and non-ballooning assemblages across adjacent latitude bands, because the paired interval for the total-Jaccard contrast included zero at all four boundaries. However, the decomposition of total dissimilarity differed at the southern and northern ends of the peninsula. Between 23–24 and 24–26°N, ballooning-capable assemblages had lower Jaccard replacement than non-ballooning assemblages (-0.304, 95% resampling interval -0.609 to -0.133) and greater nestedness-resultant dissimilarity (0.197, 95% resampling interval 0.011 to 0.588), whereas the total-Jaccard contrast remained unresolved (-0.088, 95% resampling interval -0.175 to 0.047). Trait-group contrasts were near zero between 24–26 and 26–28°N and remained unresolved between 26–28 and 28–30°N. The latter boundary nevertheless had the highest absolute replacement for both trait groups. Between 28–30 and 30–32°N, ballooning-capable assemblages again had greater nestedness-resultant dissimilarity (0.312, 95% resampling interval 0.094 to 0.548), accompanied by a tendency toward lower replacement (-0.235, 95% resampling interval -0.515 to 0.022), while total Jaccard remained unresolved (0.079, 95% resampling interval -0.061 to 0.195). Thus, ballooning capability did not uniformly reduce total compositional dissimilarity across the peninsula; rather, it altered the relative contribution of replacement and nestedness at particular biogeographic transitions.
+
+### iNEXT/Hill-diversity diagnostic
+
+Incidence-based Hill diversity for q = 0, 1, and 2 was additionally standardized to a shared sample coverage of 0.728. These estimates provide a coverage-standardized comparison of alpha and pooled adjacent-band gamma diversity. They are reported separately from the Baselga replacement–nestedness partition and should not be interpreted as replacement or nestedness metrics.
+
+### Recommended main-figure caption
+
+**Figure X.** Differences in total Jaccard dissimilarity and its Baselga replacement and nestedness-resultant components between ballooning-capable and non-ballooning arachnid assemblages across adjacent latitude bands of the Baja California Peninsula. Each band was standardized to 22 occupied 25-km cells over 5,000 paired Monte Carlo iterations. Points show median ballooning-capable minus non-ballooning contrasts, and error bars show 2.5th–97.5th percentile paired-resampling intervals. Negative replacement values indicate lower genus replacement among ballooning-capable assemblages, whereas positive nestedness-resultant values indicate that a greater proportion of compositional dissimilarity was associated with richness imbalance. Total-Jaccard contrasts were unresolved at all boundaries, but replacement was lower and nestedness-resultant dissimilarity greater among ballooning-capable assemblages at the southernmost boundary. Greater nestedness-resultant dissimilarity was also evident at the northernmost boundary.
+
+### Reporting guardrails
+
+- Jaccard total dissimilarity is not equivalent to replacement.
+- Baselga Jaccard replacement and Jaccard nestedness-resultant sum to total Jaccard dissimilarity.
+- Simpson replacement belongs to the Sørensen-family partition and should be reported as a sensitivity analysis rather than labeled as the Jaccard component.
+- iNEXT Hill diversity is a separate coverage-standardized diversity analysis; it is not a Baselga replacement–nestedness partition.
+- These pairwise adjacent-band analyses do not automatically reproduce a previously reported single peninsula-wide contrast.

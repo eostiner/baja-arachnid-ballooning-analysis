@@ -1,0 +1,58 @@
+{
+  "script_version": "2026-07-23-publication-qc-v1",
+  "started_utc": "2026-07-23T19:49:13.049109+00:00",
+  "project_root": "/Users/estiner/Desktop/BALLOONING Overflo/Baja_Ballooning_Pipeline",
+  "iterations": 5000,
+  "seed": 20260723,
+  "expected_equal_cells": 22,
+  "actual_equal_cells": 22,
+  "input_files": {
+    "incidence_matrix": {
+      "path": "/Users/estiner/Desktop/BALLOONING Overflo/D1_D4_INPUT_FILE_AUDIT 2/10_biodiversity_final_genus_by_grid25km_incidence.csv",
+      "sha256": "62b3fad7675edb8e477318e382e4db3057b0fbdcc03a4fc69d347a6b3d1e519b",
+      "bytes": 116608
+    },
+    "cell_lookup": {
+      "path": "/Users/estiner/Desktop/BALLOONING Overflo/Baja_Ballooning_Pipeline/ANALYSIS_READY_INPUTS/04_spatial_reference/10_common_grid25km_cell_lookup.csv",
+      "sha256": "59536f8f4648aad48d02ee8f4f0f0247ee87f3eadd3e9d5ad9181b3f75f7b34f",
+      "bytes": 24973
+    },
+    "trait_table": {
+      "path": "/Users/estiner/Desktop/BALLOONING Overflo/Baja_Ballooning_Pipeline/ANALYSIS_READY_INPUTS/03_trait_tables/07_reviewed_genus_trait_lookup_normalized.csv",
+      "sha256": "5650618e223db6983d89e56eaa7cbb370fac6f3470fb4f1fefbb47a54826fdd4",
+      "bytes": 28383,
+      "sheet": null
+    }
+  },
+  "matrix_genera": 267,
+  "matrix_cells": 205,
+  "cell_counts_by_band": {
+    "23-24N": 22,
+    "24-26N": 40,
+    "26-28N": 52,
+    "28-30N": 38,
+    "30-32N": 53
+  },
+  "trait_evidence_counts": {
+    "D1": 34,
+    "D2": 34,
+    "D3": 19,
+    "D4": 40,
+    "N0": 140
+  },
+  "trait_fields_used": [
+    "exclusive_tier",
+    "primary_C3_group",
+    "evidence_class",
+    "analysis_class"
+  ],
+  "occurrence_audit": {
+    "available": true,
+    "path": "/Users/estiner/Desktop/BALLOONING Overflo/Baja_Ballooning_Pipeline/02_data_clean/05_final_qc_flags/05_biodiversity_final_records.tsv",
+    "rows": 7031,
+    "genus_field": "analysis_genus",
+    "unique_occurrence_genera": 267,
+    "matrix_genera_missing_from_occurrence": [],
+    "occurrence_genera_not_in_matrix": []
+  }
+}

@@ -1,3 +1,17 @@
+## [1.2.0] - 2026-07-24
+
+### Added
+- Step 11K publication QC with 5,000 paired equal-cell iterations, Baselga Jaccard replacement/nestedness, Sørensen-family sensitivity metrics, and input provenance.
+- Incidence-based iNEXT Hill diversity at q = 0, 1, and 2 with shared-coverage standardization, 200 bootstrap replicates, recorded seed, curves, and R session information.
+- Step 11N map-plus-inset main figure separating within-band Hill diversity from adjacent-boundary Baselga effects.
+- Compact selected summaries and figures under `docs/step_11K/`; raw multi-million-row iterations remain locally generated.
+
+### Scientific guardrails
+- iNEXT Hill diversity is not described as a replacement–nestedness partition.
+- Jaccard replacement plus Jaccard nestedness-resultant equals total Jaccard dissimilarity.
+- Simpson replacement remains a Sørensen-family sensitivity metric.
+- Boundary-level Hill beta q values remain supplementary and are not substituted for Baselga effects.
+
 # Changelog
 
 ## [1.1.0] - 2026-07-18
